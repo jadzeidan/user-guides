@@ -2,21 +2,33 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Shift Cryptosecurity product user guides"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# BitBox user guides
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+Hi there, please select the product you would like to see the guides for:
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+## BitBox hardware wallets
+[BitBox01 aka. Digital BitBox](docs/bitbox01){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[BitBox02](docs/bitbox02){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[BitBox02 - BTC edition](docs/bitbox02_btc){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+## BitBox apps
+[BitBox App (Desktop)](docs/bitbox_app){: .btn .fs-5 .mb-4 .mb-md-0 }
+[BitBox App (Mobile)](docs/bitbox_app_mobile){: .btn .fs-5 .mb-4 .mb-md-0 }
+
 
 ---
 
-## Getting started
+## Not sure which one you have?
+
+Select the button below the image with your BitBox in it:
+
+IMAGES
 
 ### Dependencies
 
@@ -62,7 +74,6 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ### Configure Just the Docs
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
 
 ---
 
