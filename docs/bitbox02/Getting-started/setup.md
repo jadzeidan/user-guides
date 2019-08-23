@@ -41,7 +41,9 @@ You should then see a screen that asks you to plug in your BitBox device.
 ---
 
 ## Plug in your BitBox device
-Before you plug in your BitBox, please already insert the microSD card which will be needed in a later step. When done, please plug the BitBox into your computer. Depending on the available ports you might need to use the USB-C to USB-A adapter that came with your BitBox.
+Before you plug in your BitBox, please already **insert the microSD card** which will be needed in a later step.
+
+When done, please plug the BitBox into your computer. Depending on the available ports you might need to use the USB-C to USB-A adapter that came with your BitBox.
 
 ---
 
@@ -67,10 +69,31 @@ If both codes match, please confirm on your BitBox02, then click "Confirm & Cont
 
 Now you are asked to choose if you want to create a new wallet or restores an exisiting wallet.
 
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step3.png  "BitBox App")
+
 If this is the first time you create a wallet choose "Create Wallet".
 
-If you already used a BitBox02 before and you want to restore your wallet from your backup file choose "Restore Backup".
+If you already used a BitBox02 before and you want to restore your wallet from your backup file choose "Restore Backup". (Link to restore wallet)
 
-If you used a different hardware wallet before and you want to restore from the mnemonic seed phrase created by that other wallet, choose "Restore from BIP-39 mnemonic"
+If you used a different hardware wallet before and you want to restore from the mnemonic seed phrase created by that other wallet, choose "Restore from BIP-39 mnemonic". (link to import bip39)
 
-![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step3.png  "BitBox App")
+### Step 4: Create a wallet
+First you need to give your wallet a name. This name can be anything, choose a name that you will recognise in the future when you might need to restore from your backup.
+
+If you cannot click the "Name Device & Continue" button make sure that you have your microSD card plugged into the BitBox correctly.
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step4b.png  "BitBox App")
+
+Please then confirm the wallet name on your BitBox02.
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step4c.png  "BitBox App")
+
+### Step 5: Set your BitBox02 device password
+Next you need to set a device password for your BitBox02 which you will need to input every time you want to use your BitBox02. Please make sure that you remember this password and that it is not easy to guess.
+
+The setup wizard will show you a video of how to use the touch buttons on your BitBox02 to set and input your password.
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step5.png  "BitBox App")
+
+### Step 6: Create your wallet backup
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step6.png  "BitBox App")
+
+### Step 7: Start stacking sats
+![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step7.png  "BitBox App")

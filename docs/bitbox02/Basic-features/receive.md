@@ -17,6 +17,10 @@ grand_parent: BitBox02
 {:toc}
 
 ---
+### Bitcoin 101:
+{: .no_toc }
+{% include glossary/bitcoin_address_reuse_warning.md %}
+
 
 ## Select coin and type
 
@@ -29,7 +33,7 @@ Use the menu on the left to choose the coin (and type) you would like to receive
 ## Click receive
 
 Once you have selected the coin, click the "Receive" button in the upper right corner.
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive1.png  "BitBox02 box")
+![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive1b.png  "BitBox02 box")
 
 ## Verify receive address
 
@@ -47,3 +51,6 @@ Please compare the addresses and confirm on your BitBox02 if they match.
 ## Copy or scan address
 Now you can scan the QR code of the receive address or copy the receive address by using the copy button on the right of the address.
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive4.png  "BitBox02 box")
+
+## Receive
+You can now use this address to send coins to your BitBox02.
