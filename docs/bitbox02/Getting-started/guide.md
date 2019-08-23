@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Managing backups
-nav_order: 5
+title: Guide
+nav_order: 3
 has_children: false
-parent: Basic features
+parent: Getting-started
 grand_parent: BitBox02
 ---
 
@@ -18,6 +18,4 @@ grand_parent: BitBox02
 
 ---
 
-## Listing the backup files
-
-## Verifying a backup
+## Guide
