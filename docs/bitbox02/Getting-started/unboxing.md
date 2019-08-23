@@ -30,8 +30,7 @@ Before you start using your device, please make sure that the vacuum bag is stil
 
 Here is a photo of what it should look like:
 
-![alt text](/assets/images/BitBox02/06_bb02_vac.png  "BitBox02 in vacuum bag")
-
+![alt text]({{site.baseurl}}/assets/images/BitBox02/06_bb02_vac.png  "BitBox02 in vacuum bag")
 
 ## In the box
 
@@ -43,5 +42,5 @@ The following items should be in your box:
 * BitBox stickers
 * Rubber pulls
 
-![alt text](/assets/images/BitBox02/04_bb02_open_box.png  "BitBox02 box")
-![alt text](/assets/images/BitBox02/03_bb02_accessories.png  "BitBox02 accessories")
+![alt text]({{site.baseurl}}/assets/images/BitBox02/04_bb02_open_box.png  "BitBox02 box")
+![alt text]({{site.baseurl}}/assets/images/BitBox02/03_bb02_accessories.png  "BitBox02 accessories")

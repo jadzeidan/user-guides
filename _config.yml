@@ -53,3 +53,9 @@ compress_html:
   startings: []
   blank_lines: false
   profile: false
+
+defaults:
+  - scope:
+      path: "assets/imgages"
+    values:
+      image: true
