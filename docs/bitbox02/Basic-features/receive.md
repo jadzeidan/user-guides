@@ -44,7 +44,6 @@ Please compare the addresses and confirm on your BitBox02 if they match.
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive3.png  "BitBox02 box")
 
 
-
 ## Copy or scan address
 Now you can scan the QR code of the receive address or copy the receive address by using the copy button on the right of the address.
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive4.png  "BitBox02 box")
