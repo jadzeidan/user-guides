@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: BitBox
 description: User guides for our products
-#baseurl: "/user-guides" # the subpath of your site, e.g. /blog
+baseurl: "/user-guides" # the subpath of your site, e.g. /blog
 #url: "https://shiftdevices.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 support: "(mailto:support@shiftcrypto.ch)"
 
