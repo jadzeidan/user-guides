@@ -53,4 +53,4 @@ Now you can scan the QR code of the receive address or copy the receive address 
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive4.png  "BitBox02 box")
 
 ## Receive
-You can now use this address to send coins to your BitBox02.
+You can now use this address to send coins to your BitBox02. When you want to make another transaction to your BitBox02 create a new receive address first, don't re-use addresses. 

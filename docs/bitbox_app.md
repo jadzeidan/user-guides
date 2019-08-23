@@ -2,6 +2,8 @@
 layout: default
 title: BitBox App
 nav_order: 5
+nav_exclude: true
+
 ---
 
 # {{page.title}}

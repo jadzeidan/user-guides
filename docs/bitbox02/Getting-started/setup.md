@@ -47,7 +47,7 @@ When done, please plug the BitBox into your computer. Depending on the available
 
 ---
 
-## Follow the setup-wizard
+## Follow the in-App setup-wizard
 
 Once the BitBox is plugged in, the setup-wizard should start which will guide you through the process of setting up your BitBox, creating and backing up your wallet.
 
@@ -93,7 +93,21 @@ The setup wizard will show you a video of how to use the touch buttons on your B
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step5.png  "BitBox App")
 
 ### Step 6: Create your wallet backup
+After the device password is set, the BitBox will create a backup of your wallet and safe it on the microSD card. To start that process click "Create Backup".
+
+Your BitBox02 will then ask you to confirm today's date as that is needed for the backup file.
+
+> The backup file on your microSD card is not passowrd protected, unless you use the advanced passphrase feature (link). That means should someone find your microSD card they can steal your funds. Therefore you should **make sure that you store it in a secure location.**
+
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step6.png  "BitBox App")
 
+If you want, you can create multiple backups on multiple microSD cards. To do so follow this guide(link).
+
+You can at any point check that you still have a valid wallet. To do so follow this guide (link).
+
+
+
 ### Step 7: Start stacking sats
+
+Great! Your BitBox02 is ready to use. Please make sure that you store your backup on your microSD card in a secure location.
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step7.png  "BitBox App")
