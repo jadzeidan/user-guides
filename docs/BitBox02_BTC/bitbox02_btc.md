@@ -2,6 +2,10 @@
 layout: default
 title: BitBox02 - BTC only
 nav_order: 4
+has_children: true
+permalink: /docs/BitBox02-BTC
+nav_exclude: true
+
 ---
 
 # {{page.title}}

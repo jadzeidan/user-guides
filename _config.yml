@@ -45,6 +45,11 @@ ga_tracking:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-get-json
+
+jekyll_get_json:
+  - data: guide
+    json: 'https://raw.githubusercontent.com/digitalbitbox/bitbox-wallet-app/47fedb10e7816220ff0c33e4f0d1c70932b1a37f/frontends/web/src/locales/en/app.json'
 
 compress_html:
   clippings: all
