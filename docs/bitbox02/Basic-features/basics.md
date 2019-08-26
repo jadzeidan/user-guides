@@ -9,3 +9,4 @@ permalink: /docs/bitbox02/basics
 
 # {{page.parent}}: {{page.title}}
 {: .no_toc }
+### Here you will find guides to the features that you will use most often.

@@ -90,5 +90,5 @@ You can at any point check that you still have a valid wallet. To do so follow t
 
 ### Step 7: Start stacking sats
 
-Great! Your {{include.product}} is ready to use. Please make sure that you store your backup on your microSD card in a secure location.
+Great! Your {{include.product}} is ready to use. Please make sure that you store your backup on your microSD card in a **secure location.**
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step7.png  "BitBox App")

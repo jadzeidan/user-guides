@@ -6,22 +6,9 @@ has_children: true
 permalink: /docs/BitBox02
 ---
 
-# {{page.title}}
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 ## Device description
 
-The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
-
-By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see [Pages with Children](#pages-with-children)).
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
@@ -33,10 +20,10 @@ IMAGES
 ## Datasheet
 
 
-[Download Datasheet](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download Datasheet](https://shiftcrypto.ch/bitbox02/BitBox02_Datasheet.pdf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ---
 
 ## Firmware log
-A list of all firmware versions with a changelog
+A list of all firmware versions with a changelog.

@@ -15,11 +15,11 @@ Hi there, please select the product you would like to see the guides for:
 ## BitBox hardware wallets
 [BitBox01 aka. Digital BitBox](docs/bitbox01){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [BitBox02](docs/bitbox02){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[BitBox02 - BTC edition](docs/bitbox02_btc){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
 
 ## BitBox apps
 [BitBox App (Desktop)](docs/bitbox_app){: .btn .fs-5 .mb-4 .mb-md-0 }
-[BitBox App (Mobile)](docs/bitbox_app_mobile){: .btn .fs-5 .mb-4 .mb-md-0 }
+
 
 
 ---
