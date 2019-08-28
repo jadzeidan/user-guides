@@ -127,3 +127,16 @@ $btn-primary-color: #AAAAAA;
 //lg: $content-width + $nav-width,
 //xl: 1400px
 //);
+
+blockquote {
+  background-color: #EEEEEE;
+  border-radius: 0.5em;
+  margin-top: 0.5em !important;
+  padding: 14px 10px 1px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .site-footer {
+    display: none;
+  }
+}

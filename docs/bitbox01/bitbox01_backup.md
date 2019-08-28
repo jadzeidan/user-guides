@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Backup center
+title: Backup center (BitBox01 aka. Digital BitBox)
 nav_order: 2
 has_children: false
 parent: BitBox01
@@ -29,12 +29,12 @@ Learn how to recover from a backup or create your own wallet using the client-si
 {% include backup.html %}
 
 ## Instructions
-* To recover your Bitcoin wallet without a Digital Bitbox, enter the wallet backup text and password in the above boxes, click 'generate' and import the recovery key into the Electrum software wallet.
-* To <b>recover Ethereum without a Digital Bitbox, enter the wallet backup text and password in the above boxes, click 'generate' and enter an Ethereum private key into MyEtherWallet.
+* To recover your Bitcoin wallet without a BitBox01, enter the wallet backup text and password in the above boxes, click 'generate' and import the recovery key into the Electrum software wallet.
+* To recover Ethereum without a BitBox01, enter the wallet backup text and password in the above boxes, click 'generate' and enter an Ethereum private key into MyEtherWallet.
 The order of private keys corresponds to the order of public addresses when 'viewing' a wallet in MyEtherWallet.
-* To load your own wallet</b> into a Digital Bitbox, put the PDF file
+* To load your own wallet into a BitBox01, put the PDF file
 on the micro SD card inside a folder named 'digitalbitbox' in the root directory.
-Then, insert the SD card into the Digital Bitbox, and load your wallet using the desktop app.
+Then, insert the SD card into the BitBox01, and load your wallet using the desktop app.
 **High quality randomness is crucial!**
 Otherwise, a thief may be able to guess your key and take your coins.
 
