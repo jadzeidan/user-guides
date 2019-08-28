@@ -61,11 +61,11 @@ Contact support: [support@shiftcrypto.ch](mailto:support@shiftcrypto.ch)
 
 If you didn't use the hidden wallet feature on the BitBox01:
 
->[Click here](http://localhost:4000/user-guides/docs/bitbox01/bitbox01_sweep_to_BB02/#send-coins-from-bitbox01-to-bitbox02-no-hidden-wallet)
+>[Click here]({{site.baseurl}}/user-guides/docs/bitbox01/bitbox01_sweep_to_BB02/#send-coins-from-bitbox01-to-bitbox02-no-hidden-wallet)
 
 If you used the hidden-wallet feature but you don't want to continue using it on your BitBox02:
 
-> [Click here](http://localhost:4000/user-guides/docs/bitbox01/bitbox01_sweep_to_BB02/#send-coins-from-bitbox01-to-bitbox02-no-hidden-wallet) and repeat it once to sweep the standard wallet from your BitBox01 and then again to sweep the hidden-wallet from your BitBox01.
+> [Click here]({{site.baseurl}}/user-guides/docs/bitbox01/bitbox01_sweep_to_BB02/#send-coins-from-bitbox01-to-bitbox02-no-hidden-wallet) and repeat it once to sweep the standard wallet from your BitBox01 and then again to sweep the hidden-wallet from your BitBox01.
 
 If you used the hidden-wallet feature and you want to continue using it on your BitBox02:
 
