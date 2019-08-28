@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Optional Passphrase
-nav_order: 2
+nav_order: 3
 parent: Advanced features
 grand_parent: BitBox02
 ---

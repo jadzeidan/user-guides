@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reset device
-nav_order: 3
+nav_order: 4
 parent: Advanced features
 grand_parent: BitBox02
 

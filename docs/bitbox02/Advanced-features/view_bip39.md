@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Export BIP39 mnemonic seed
-nav_order: 1
+nav_order: 2
 parent: Advanced features
 grand_parent: BitBox02
 
@@ -20,7 +20,7 @@ Your BitBox02 allows you to create a new wallet backup at any time (you will nee
 If you want to make a backup to a microSD card, [follow this guide]({{site.baseurl}}/docs/bitbox02/Basic-features/managing_backups/#creating-a-new-backup)
 
 If you want to display your BIP39 mnemonic seed on your BitBox02 in order to write it on paper or punch it into metal continue reading.
-> **Note:** It is not necessary to write down your BIP39 mnemonic seed as you have already created a wallet backup onto a microSD card when you initialised your BitBox02. This is an advanced feature. 
+> **Note:** It is not necessary to write down your BIP39 mnemonic seed as you have already created a wallet backup onto a microSD card when you initialised your BitBox02. This is an advanced feature.
 
 ## Click "Show BIP39 Mnemonic" and confirm risks
 In "Device settings" click "Show BIP39 Mnemonic".
