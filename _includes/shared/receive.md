@@ -38,6 +38,7 @@ Now you can scan the QR code of the receive address or copy the receive address 
 {% if include.product == "BitBox02" %}
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive4.png  )
 {% elsif include.product == "BitBox01" %}
+**Attention:** We recommend that you use our Smartphone app as a second-factor authenticator, so that you can verify receive addresses on a second display. (link to guide)
 ![alt text]({{site.baseurl}}/assets/images/BitBox01_random/bb01_receive1.png  )
 {% endif %}
 
