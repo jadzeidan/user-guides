@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Settings
-nav_order: 5
+nav_order: 1
 has_children: false
 parent: BitBox App
 
@@ -40,4 +40,4 @@ All activated accounts show up in the left menu bar. Please check each of these 
 
 
 ## Expert settings
-In this section you can connect the BitBox App to your own full node. A guide will be available soon.
+In this section you can enable [Coin control]({{site.baseurl}}/docs/bitbox_app/coin_control/ ) connect the BitBox App to [your own full node.]({{site.baseurl}}/docs/bitbox_app/full_node/)

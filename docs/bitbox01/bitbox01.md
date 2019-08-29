@@ -9,8 +9,15 @@ permalink: /docs/BitBox01
 # {{page.title}}
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+Work in progress.
 
-1. TOC
-{:toc}
+## Device description
+
+
+
+
+## Device pictures
+
+
+
+## Datasheet

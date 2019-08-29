@@ -19,13 +19,3 @@ Hi there, please select the product you would like to see the guides for:
 
 ## BitBox apps
 [BitBox App (Desktop)](docs/bitbox_app){: .btn .fs-5 .mb-4 .mb-md-0 }
-
-
-
----
-
-## Not sure which one you have?
-
-Select the button below the image with your BitBox in it:
-
-IMAGES

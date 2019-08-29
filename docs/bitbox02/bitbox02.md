@@ -8,13 +8,15 @@ permalink: /docs/BitBox02
 
 ## Device description
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The BitBox02 cryptocurrency hardware wallet enables
+you to independently generate and securely store your
+private keys. You can also use it as a second factor
+authenticator (FIDO compliant U2F).
 
----
 
 ## Device pictures
 
-IMAGES
+![alt text]({{site.baseurl}}/assets/images/BitBox02/01_bb02_render.png )
 
 
 ## Datasheet
@@ -24,6 +26,3 @@ IMAGES
 
 
 ---
-
-## Firmware log
-A list of all firmware versions with a changelog.
