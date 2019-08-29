@@ -265,6 +265,8 @@ def extract_values(obj, key):
                     print("yes")
                     extract(v, arr, key)
                 elif k in key:
+                    if k == "text":
+
                     string = k + ": "+ v
                     arr.append(string)
         #elif isinstance(obj, list):

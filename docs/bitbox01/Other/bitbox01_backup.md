@@ -3,7 +3,8 @@ layout: default
 title: Backup center (BitBox01 aka. Digital BitBox)
 nav_order: 2
 has_children: false
-parent: BitBox01
+parent: Other guides
+grand_parent: BitBox01
 ---
 # {{page.title}}
 {: .no_toc }

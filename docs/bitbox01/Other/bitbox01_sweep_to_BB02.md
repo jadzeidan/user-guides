@@ -3,7 +3,8 @@ layout: default
 title: Sweep funds from BitBox01 to BitBox02
 nav_order: 3
 has_children: false
-parent: BitBox01
+parent: Other guides
+grand_parent: BitBox01
 ---
 # {{page.title}}
 {: .no_toc }

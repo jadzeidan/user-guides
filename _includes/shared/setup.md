@@ -24,13 +24,18 @@ You should then see a screen that asks you to plug in your {{include.product}}.
 ## Insert microSD card & plug in your {{include.product}}
 Before you plug in your {{include.product}}, please already **insert the microSD card** which will be needed in a later step.
 
+{% if include.product == "BitBox02" %}
 When done, please plug the {{include.product}} into your computer. Depending on the available ports you might need to use the USB-C to USB-A adapter that came with your {{include.product}}.
-
+{% elsif include.product == "BitBox01" %}
+When done, please plug the {{include.product}} into your computer.
+{% endif %}
 ---
 
 ## Follow the in-App setup-wizard
 
 Once the {{include.product}} is plugged in, the setup-wizard should start which will guide you through the process of setting up your {{include.product}}, creating and backing up your wallet.
+
+{% if include.product == "BitBox02" %}
 
 ### Step 1: Choose display orientation
 Most laptops have ports on both sides and as we cannot know from which side you will plug your {{include.product}} you will first need to select your display orientation.
@@ -48,7 +53,7 @@ Please take the time to check all characters.
 If both codes match, please confirm on your {{include.product}}, then click "Confirm & Continue" in the BitBox App.
 ### Step 3: Choose if you want to create a new wallet or restore an existing wallet
 
-Now you are asked to choose if you want to create a new wallet or restores an exisiting wallet.
+Now you are asked to choose if you want to create a new wallet or restores an existing wallet.
 
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step3.png  "BitBox App")
 
@@ -86,9 +91,59 @@ If you want, you can create multiple backups on multiple microSD cards. To do so
 
 You can at any point check that you still have a valid wallet. To do so follow this guide (link).
 
+{% elsif include.product == "BitBox01" %}
+### Step 1: Choose if you want to create a new wallet or restore an existing wallet
+Now you are asked to choose if you want to create a new wallet or restores an existing wallet.
+
+If this is the first time you create a wallet choose "Create Wallet".
+
+If you already used a {{include.product}} before and you want to restore your wallet from your backup file choose "Restore a wallet from a backup". (Link to restore wallet)
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup1.png  )
+
+### Step 2: Understand the {{include.product}} passwords
+The {{include.product}} makes use of two passwords:
+* a **device password**, that you need whenever you want to use your {{include.product}}. This password can be changed later.
+* a **recovery password** that protects your backup. This password can **NOT** be changed later.
+
+**Important:** If you lose your {{include.product}} you will need your backup microSD card **AND** the recovery password in order to restore your wallet. **Just the backup microSD card is not enough.**
+
+**Therefore please ensure that you keep your recovery password and backup microSD card safe.**
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup2.png  )
+
+### Step 3: Start the setup process
+Read the information and click "Continue"
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup3.png  )
+
+### Step 4: Set device password
+Now please set and confirm your device password. This password is needed whenever you want to use your {{include.product}}. It password can be changed later.
+
+Click "Set device password"
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup4.png  )
+
+### Step 5: Create wallet and microSD card backup
+Next your wallet will be created. For that your microSD card needs to be plugged in, so that the backup file can be saved on it.
+
+If your have not yet plugged in a microSD card, please do so now and click "Set recovery password now".
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup5.png  )
+
+### Step 6: Set recovery password
+In this step you will set the recovery password that protects your backup microSD card.
+
+This password can **NOT** be changed later.
+
+**Important:** If you lose your {{include.product}} you will need your backup microSD card **AND** the recovery password in order to restore your wallet. **Just the backup microSD card is not enough.**
+
+Please also give your wallet a name that you can remember.
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup6.png  )
+
+{% endif %}
+
 
 
 ### Step 7: Start stacking sats
-
 Great! Your {{include.product}} is ready to use. Please make sure that you store your backup on your microSD card in a **secure location.**
+{% if include.product == "BitBox02" %}
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step7.png  "BitBox App")
+{% elsif include.product == "BitBox01" %}
+![alt text]({{site.baseurl}}/assets/images/BitBox01_setup/bb01_setup7.png  )
+{% endif %}
