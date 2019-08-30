@@ -17,7 +17,7 @@ grand_parent: BitBox01
 
 **Caution:** This page is not required to use your Bitbox01 and is provided for instructional purposes.
 ## To recover real funds
-A standalone version of this page can be downloaded from <a href="https://github.com/digitalbitbox/html_backup">Github</a> and run offline. See the README on Github for instructions.
+A standalone version of this page can be downloaded from [Github](https://github.com/digitalbitbox/html_backup) and run offline. See the README on Github for instructions.
 
 > **If you want to recover real funds, please download the page from Github and run offline!**
 
@@ -57,13 +57,13 @@ In particular, PBKDF2 strengthening is done twice (22,528 total rounds) for stro
 ### Coin_type field
 * Coin_type is set in accordance to [SLIP-44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md):
     * Bitcoin = 0
-    * Bitcoin Tesnets = 1
+    * Testnets = 1
     * Litecoin = 2
     * Ethereum = 60
 
 ### Account field
 * BitBox App currently only supports a single account, therefore wallets created via the BitBox App will use 0 for the account field.
-* Wallets created via Electrum can have a different account field number.
+* Wallets created with other wallet software have a different account field number.
 
 ### Change field
 * 0 for normal receive addresses
@@ -73,8 +73,6 @@ In particular, PBKDF2 strengthening is done twice (22,528 total rounds) for stro
 * Addresses are numbered from index 0 in sequentially increasing manner.
 
 ## Other schemes / Information
-* Electrum recovery keys are generated with m/44'/0'/0'.
-* For a multi-signature wallet, the base BIP32 key path is m/100'/45'/0'.
 * The tool generates Ethereum keys m/44'/60'/0'/0/0 through m/44'/60'/0'/0/19.
 <!--
 | master private key | purpose'  | coin' | account' | change | address |
