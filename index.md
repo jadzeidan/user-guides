@@ -18,4 +18,4 @@ Hi there, please select the product you would like to see the guides for:
 
 
 ## BitBox apps
-[BitBox App (Desktop)](docs/bitbox_app){: .btn .fs-5 .mb-4 .mb-md-0 }
+[BitBox App (Desktop)](docs//BitBox_App){: .btn .fs-5 .mb-4 .mb-md-0 }
