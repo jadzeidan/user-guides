@@ -16,7 +16,7 @@
 title: BitBox
 description: Shift Cryptocurrency product user guides
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guides.shiftcrypto.ch/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://guides.shiftcrypto.ch" # the base hostname & protocol for your site, e.g. http://example.com
 support: "(mailto:support@shiftcrypto.ch)"
 
 permalink: pretty
