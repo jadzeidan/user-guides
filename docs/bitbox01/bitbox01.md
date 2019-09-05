@@ -8,16 +8,3 @@ permalink: /docs/BitBox01
 
 # {{page.title}}
 {: .no_toc }
-
-Work in progress.
-
-## Device description
-
-
-
-
-## Device pictures
-
-
-
-## Datasheet

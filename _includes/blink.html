@@ -1,0 +1,93 @@
+
+The LED of the BitBox01 prompts for user actions and signals outcomes with the following blinking patterns since <a href="https://github.com/digitalbitbox/mcu/releases/tag/v6.1.0" target="_blank">version 6.1.0</a> where:
+
+· is a short blink for 0.1 seconds
+
+-- is a long blink for 0.3 seconds
+
+— is on for several seconds
+
+—— is on until touched
+
+
+<section class="rightup with-space">
+  <div class="content-width">
+    <div class="row center-xs">
+      <div class="col-xs-11 col-sm-10">
+        <table>
+          <thead>
+            <tr>
+              <th width="58%">Device State</th>
+              <th width="16%">Blinking Pattern</th>
+              <th width="26%">User Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Action was successful (after successful touch, when triggering the blinking through the manage device screen, and when the firmware boots).</td>
+              <td>· -</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>Action was aborted.</td>
+              <td>· · · · · · · ·</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>Blink between 1 and 4 times when pairing the device with the mobile verification app.</td>
+              <td>-<br>- -<br>- - -<br>- - - -</td>
+              <td>Enter the number of blinks in the mobile app.</td>
+            </tr>
+            <tr>
+              <td>Enter unlocked bootloader after inserting the device.</td>
+              <td>——</td>
+              <td>Touch to enter bootloader mode.<br>Wait for timeout to enter normal mode.</td>
+            </tr>
+            <tr>
+              <td>Authenticate with U2F.</td>
+              <td>——</td>
+              <td>Touch to authenticate.<br>Wait for timeout to reject.</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Unlock the bootloader for the next boot.</li>
+                </ul>
+              </td>
+              <td>——</td>
+              <td rowspan="5" style="vertical-align: middle;">Hold 3 seconds to accept.<br>Short touch or timeout to reject.</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Sign a transaction.</li>
+                </ul>
+              </td>
+              <td>— (repeats)</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Change primary password.</li>
+                  <li>Set/change password for hidden wallet.</li>
+                  <li>Continue logging in to the device after 10 failed attempts.</li>
+                </ul>
+              </td>
+              <td>— · (repeats)</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Reset the device.</li>
+                  <li>Erase a backup.</li>
+                  <li>Lock the device, also known as full 2FA.</li>
+                </ul>
+              </td>
+              <td>— · · (repeats)</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Enter pairing mode to pair the device with the mobile verification app.</li>
+                </ul>
+              <td>— · · · (repeats)</td>

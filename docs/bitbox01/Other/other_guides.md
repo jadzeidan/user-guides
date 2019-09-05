@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Other guides
-nav_order: 2
+nav_order: 4
 has_children: true
 parent: BitBox01
 permalink: /docs/bitbox01/other
