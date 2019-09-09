@@ -30,4 +30,4 @@ Go to "Device Settings" and select "Reset Device."
 
 Then type in your device password in order to confirm that you want to reset the BitBox01, tick the box to confirm that you have a valid backup and recovery password (if you are not sure, please verify by following [this guide]({{site.baseurl}}/docs/bitbox01/Bacis%20features/managing_backups/)
 ) and click "Reset Device".
-![alt text]({{site.baseurl}}/assets/images/BitBox01_random/BB01_reset.png )
+![alt text]({{site.baseurl}}/assets/images/BitBox01_random/bb01_reset.png )
