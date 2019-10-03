@@ -1,7 +1,7 @@
 {% if include.product == "BitBox02" %}
-![alt text]({{site.baseurl}}/assets/images/BitBox02_device/device_settings1.png )
+![alt text]({% link assets/images/BitBox02_device/device_settings1.png %})
 {% elsif include.product == "BitBox01" %}
-![alt text]({{site.baseurl}}/assets/images/BitBox01_random/bb01_device_settings1.png )
+![alt text]({% link assets/images/BitBox01_random/bb01_device_settings1.png %})
 {% endif %}
 
 ## Secrets section
@@ -9,14 +9,14 @@ At the top of the device settings you can find the "secrets" section. This secti
 
 It let's you:
 {% if include.product == "BitBox02" %}
-* [manage and verify your backups.]({{site.baseurl}}/bitbox02/Basic-features/managing_backups/ ).
-* [view your BIP39 seed to back it up on paper or metal.]({{site.baseurl}}/bitbox02/Advanced-features/view_bip39//)
-* [reset your {{include.product}}.]({{site.baseurl}}/bitbox02/Advanced-features/reset/)
+* [manage and verify your backups.]({% link bitbox02/Basic-features/managing_backups.md %})
+* [view your BIP39 seed to back it up on paper or metal.]({% link bitbox02/Advanced-features/view_bip39.md %})
+* [reset your {{include.product}}.]({% link bitbox02/Advanced-features/reset.md %})
 {% elsif include.product == "BitBox01" %}
-* [manage and verify your backups.]({{site.baseurl}}/404).
-* [change your device password]({{site.baseurl}}/404)
-* [create a hidden wallet]({{site.baseurl}}/404)
-* [reset your {{include.product}}.]({{site.baseurl}}/404)
+* [manage and verify your backups.]({% link bitbox01/basic-features/managing_backups.md %})
+* [change your device password]({% link 404.html %})
+* [create a hidden wallet]({% link 404.html %})
+* [reset your {{include.product}}.]({% link bitbox01/advanced-features/reset.md %})
 
 ## Pairing section
 The pairing section let's you pair your {{include.product}} with your smartphone via our mobile app. That allows you to require a second factor for your transactions and let's you verify the generated receive address on your Smartphone.
@@ -39,5 +39,5 @@ This section let's you use the built in true-random-number-generator (TRNG) to g
 
 {% if include.product == "BitBox02" %}
 ## Expert section
-The "expert" section allows you to enable the passphrase option. To learn more about that follow [this guide.]({{site.baseurl}}/bitbox02/Advanced-features/passphrase/)
+The "expert" section allows you to enable the passphrase option. To learn more about that follow [this guide.]({% link bitbox02/Advanced-features/passphrase.md %})
 {% endif %}

@@ -6,7 +6,7 @@
 
 ## Select coin and type
 
-Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({{site.baseurl}}/bitbox_app/settings/#bitbox-app-settings)
+Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({% link bitbox_app/settings.md %}#bitbox-app-settings)
 
 
 ---
@@ -14,7 +14,7 @@ Use the menu on the left to choose the coin (and type) you would like to receive
 ## Click receive
 
 Once you have selected the coin, click the "Receive" button in the upper right corner.
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive1b.png  )
+![alt text]({% link assets/images/BitBox02_receive/receive1b.png %})
 
 
 {% if include.product == "BitBox02" %}
@@ -22,23 +22,22 @@ Once you have selected the coin, click the "Receive" button in the upper right c
 
 You will then see the first few characters of a receive address. In order to get the complete address you need to verify it on your {{include.product}} by clicking "Show and verify full address on device".
 
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive2.png  )
+![alt text]({% link assets/images/BitBox02_receive/receive2.png %})
 
 The address will then be shown on your {{include.product}} and the BitBox App at the same time.
 
 Please compare the addresses and confirm on your {{include.product}} if they match.
 
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive3.png  )
+![alt text]({% link assets/images/BitBox02_receive/receive3.png %})
 {% endif %}
 
 
 ## Copy or scan address
 Now you can scan the QR code of the receive address or copy the receive address by using the copy button on the right of the address.
 {% if include.product == "BitBox02" %}
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive4.png  )
+![alt text]({% link assets/images/BitBox02_receive/receive4.png %})
 {% elsif include.product == "BitBox01" %}
-**Attention:** We recommend that you use our Smartphone app as a second-factor authenticator, so that you can verify receive addresses on a second display. (link to guide)
-![alt text]({{site.baseurl}}/assets/images/BitBox01_random/bb01_receive1.png  )
+![alt text]({% link assets/images/BitBox01_random/bb01_receive1.png %})
 {% endif %}
 
 ## Receive

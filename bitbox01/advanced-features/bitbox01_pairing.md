@@ -2,10 +2,8 @@
 layout: default
 title: Mobile App Pairing
 nav_order: 1
-has_children: false
 parent: Advanced-features
 grand_parent: BitBox01
-nav_exclude: true
 ---
 # {{page.grand_parent}}: {{page.title}}
 {: .no_toc }
