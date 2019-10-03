@@ -6,8 +6,7 @@
 
 ## Select coin and type
 
-Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out this guide.(link to settings page)
-![alt text]({{site.baseurl}}/assets/images/BitBox02_receive/receive1.png  )
+Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({{site.baseurl}}/bitbox_app/settings/#bitbox-app-settings)
 
 
 ---

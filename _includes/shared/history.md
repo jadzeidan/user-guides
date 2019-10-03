@@ -11,7 +11,7 @@ An incoming transaction will at first be pending. That means it is not confirmed
 
 
 ### Confirmed incoming transaction
-Once a formerly pending transaction has the first confirmation (i.e. it was included in a block) it is shown as a confirmed transaction and the transaction amount is added to your wallet balance.
+Once a formerly pending transaction has its first confirmation (i.e. it was included in a block) it is shown as a confirmed transaction and the transaction amount is added to your wallet balance.
 ![alt text]({{site.baseurl}}/assets/images/BitBox_history/confirmed_incoming.png  "BitBox02 box")
 
 
@@ -23,7 +23,7 @@ An outgoing transaction will at first be pending. That means it is not confirmed
 
 
 ### Confirmed outgoing transaction
-Once a formerly pending transaction has the first confirmation (i.e. it was included in a block) it is shown as a confirmed transaction and the transaction amount is deducted from your wallet balance.
+Once a formerly pending transaction has its first confirmation (i.e. it was included in a block) it is shown as a confirmed transaction and the transaction amount is deducted from your wallet balance.
 
 IMAGE
 

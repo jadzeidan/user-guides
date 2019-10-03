@@ -31,7 +31,7 @@ If you confirmed the transaction on your  {{include.product}} you should see thi
 
 {% elsif include.product == "BitBox01" %}
 ## Confirm the transaction on your {{include.product}}
-**Attention:** We recommend that you use our Smartphone app as a second-factor authenticator for your transactions, so that you can verify the transaction details on a second display. (link to guide)
+**Attention:** We recommend that you use our Smartphone app as a second-factor authenticator for your transactions, so that you can verify the transaction details on a second display.
 
 Please confirm or deny the transaction on your {{include.product}}
 ![alt text]({{site.baseurl}}/assets/images/BitBox01_random/bb01_send1.png   )

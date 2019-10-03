@@ -87,9 +87,9 @@ Your {{include.product}} will then ask you to confirm today's date as that is ne
 
 ![alt text]({{site.baseurl}}/assets/images/BitBox02_wizard/step6.png  "BitBox App")
 
-If you want, you can create multiple backups on multiple microSD cards. To do so follow this guide(link).
+If you want, you can create multiple backups on multiple microSD cards. To do so follow [this guide]({{site.baseurl}}/bitbox02/Basic-features/managing_backups/#creating-a-new-backup)
 
-You can at any point check that you still have a valid wallet. To do so follow this guide (link).
+You can at any point check that you still have a valid wallet. To do so follow [this guide]({{site.baseurl}}/bitbox02/Basic-features/managing_backups/#verifying-a-backup)
 
 {% elsif include.product == "BitBox01" %}
 ### Step 1: Choose if you want to create a new wallet or restore an existing wallet
