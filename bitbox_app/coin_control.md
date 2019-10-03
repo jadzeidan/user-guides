@@ -22,7 +22,7 @@ One of the advanced features of the new BitBox Desktop App is Coin Control. It a
 
 ## Enable coin control
 To enable coin control go into the BitBox App settings and under "Expert Settings" tick "Enable coin control"
-![alt text]({{site.baseurl}}/assets/images/BitBoxApp/app_settings1.png )
+![alt text]({% link assets/images/BitBoxApp/app_settings1.png %})
 
 ## Use coin control
 Work in Progress

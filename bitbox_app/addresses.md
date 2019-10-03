@@ -17,7 +17,7 @@ parent: BitBox App
 {:toc}
 
 ---
-![alt text]({{site.baseurl}}/assets/images/BitBoxApp/app_settings1.png )
+![alt text]({% link assets/images/BitBoxApp/app_settings1.png %})
 
 Since version 4.0.0 of the BitBox Desktop App it supports three Bitcoin transaction formats:
 * Legacy — referred to as “Bitcoin Legacy” in the app

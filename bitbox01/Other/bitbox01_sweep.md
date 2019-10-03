@@ -28,7 +28,7 @@ This guide demonstrates how to sweep all funds from an old BitBox01 (aka. Digita
 
 
 ## Verify that you have a valid backup and recovery password
-Please check [this guide]({{site.baseurl}}/bitbox01/Bacis%20features/managing_backups/#bitbox01-managing-backups) to verify that you have valid wallet backup and recovery password for the wallet you want to send your coins out of.
+Please check [this guide]({% link bitbox01/basic-features/managing_backups.md %}#bitbox01-managing-backups) to verify that you have valid wallet backup and recovery password for the wallet you want to send your coins out of.
 
 If that is the case you can proceed.
 If you can't verify that your backup and and recovery password contact support by clicking on the "Contact Us" button on the lower right of this page.
@@ -40,12 +40,12 @@ If you can't verify that your backup and and recovery password contact support b
 To reset your BitBox01 follow this guide (link)
 
 ### Create new wallet
-Now create the new wallet to which you want to send your coins. Follow [this guide]({{site.baseurl}}/bitbox01/Getting_started/setup/) to do so.
+Now create the new wallet to which you want to send your coins. Follow [this guide]({% link bitbox01/Getting_started/setup.md %}) to do so.
 
 
 ### Verify and save receive addresses
 Your BitBox01 should still be plugged in and unlocked.
-1. [Verify and copy a receive address from your BitBox01]({{site.baseurl}}/bitbox01/Bacis%20features/receive/) for each coin you want to sweep (i.e. Bitcoin, Litecoin) and paste it into a text file. Make sure you carefully check that it has been copied correctly.
+1. [Verify and copy a receive address from your BitBox01]({% link bitbox01/basic-features/receive.md %}) for each coin you want to sweep (i.e. Bitcoin, Litecoin) and paste it into a text file. Make sure you carefully check that it has been copied correctly.
 >The receive address is where your will send your funds to. Note that for Bitcoin, you may have had different style bitcoin addresses in your old wallet that each held funds. These funds can all be sent to the same (default) style receive address you just copied and stored.
 
 ### Optional: Hidden wallet
@@ -65,7 +65,7 @@ In order to access your old wallet again (which still holds your coins) you need
 ### Reset BitBox01
 To reset your BitBox01 follow this guide (link)
 ### Restore old wallet
-Please follow [this guide]({{site.baseurl}}/bitbox01/Bacis%20features/restore_from_backup/) to restore your old wallet.
+Please follow [this guide]({{site.baseurl}}/bitbox01/basic%20features/restore_from_backup/) to restore your old wallet.
 
 ## Send coins from old to new wallet
 Your BitBox01 should be plugged in and unlocked.
