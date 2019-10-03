@@ -18,20 +18,20 @@ grand_parent: BitBox02
 
 ---
 ## Click the send button
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send1.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send1.png %})
 
 ## Paste in the address you want to send to
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send3.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send3.png %})
 
 ## Enter the amount you want to send
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send4.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send4.png %})
 
 ## Choose the fee
 The higher the fee, the quicker your transaction will be confirmed in the blockchain. A low fee should be sufficient for most cases.
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send5.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send5.png %})
 
 ## Click "Sign and Send"
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send6.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send6.png %})
 
 ## Verify the details in the app and on your BitBox02
 It is crucial that you make sure the transaction details are correct. There is no reverse button in Bitcoin.
@@ -39,10 +39,10 @@ It is crucial that you make sure the transaction details are correct. There is n
 Please double check all transaction details on your BitBox02.
 
 If what you see on your BitBox02 is correct, then confirm the transaction on your BitBox02.
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send7.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send7.png %})
 
 If you confirmed the transaction on your BitBox02 you should see this screen shortly after:
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send8.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send8.png %})
 
 In this case the address I sent to was an address I got by clicking the receive button, i.e. I sent the coins from my BitBox02 to my BitBox02, therefore the transaction is labeled as "Self" in the transaction history view.
-![alt text]({{site.baseurl}}/assets/images/BitBox02_send/send9.png  "BitBox02 box")
+![alt text]({% link assets/images/BitBox02_send/send9.png %})

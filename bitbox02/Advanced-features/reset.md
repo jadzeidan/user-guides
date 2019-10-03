@@ -25,7 +25,7 @@ If you want to reset your BitBox02 without the BitBox App, just type in an incor
 
 ### Reset via the BitBox App
 Go to "Device Settings" and select "Reset Device."
-![alt text]({{site.baseurl}}/assets/images/BitBox02_reset/reset1.png )
+![alt text]({% link assets/images/BitBox02_reset/reset1.png %})
 
 Then confirm that you have a valid backup of your wallet and that you know your passphrase (in case you used one) and click "Reset Device".
-![alt text]({{site.baseurl}}/assets/images/BitBox02_reset/reset2.png )
+![alt text]({% link assets/images/BitBox02_reset/reset2.png %})

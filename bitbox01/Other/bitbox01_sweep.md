@@ -65,7 +65,7 @@ In order to access your old wallet again (which still holds your coins) you need
 ### Reset BitBox01
 To reset your BitBox01 follow this guide (link)
 ### Restore old wallet
-Please follow [this guide]({{site.baseurl}}/bitbox01/basic%20features/restore_from_backup/) to restore your old wallet.
+Please follow [this guide]({% link bitbox01/basic-features/restore_from_backup.md %}) to restore your old wallet.
 
 ## Send coins from old to new wallet
 Your BitBox01 should be plugged in and unlocked.

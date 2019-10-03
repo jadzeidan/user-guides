@@ -18,7 +18,7 @@ authenticator (FIDO compliant U2F).
 
 ## Device pictures
 
-![alt text]({{site.baseurl}}/assets/images/BitBox02/01_bb02_render.png )
+![alt text]({% link assets/images/BitBox02/01_bb02_render.png %})
 
 
 ## Datasheet

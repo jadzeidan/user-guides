@@ -55,15 +55,15 @@ The idea behind this is that if you ever find yourself in a situation where some
 ## Using a passhrase
 ### Enable Mnemonic Passphrase in device settings
 Go to "Device settings" and click "Enable Mnemonic Passphrase".
-![alt text]({{site.baseurl}}/assets/images/BitBox02_passphrase/passphrase1.png )
+![alt text]({% link assets/images/BitBox02_passphrase/passphrase1.png %})
 
 You will then see the following warning
-![alt text]({{site.baseurl}}/assets/images/BitBox02_passphrase/passphrase2.png )
+![alt text]({% link assets/images/BitBox02_passphrase/passphrase2.png %})
 
 Please make sure you understand how a passphrase works. If that is the case, confirm on your BitBox02 that you want to enable it.
 
 Then you will see the following:
-![alt text]({{site.baseurl}}/assets/images/BitBox02_passphrase/passphrase3.png )
+![alt text]({% link assets/images/BitBox02_passphrase/passphrase3.png %})
 
 From now on you will be asked for a passphrase after every device unlock. If you want to use your "normal" wallet just confirm directly i.e. with no passphrase input.
 
