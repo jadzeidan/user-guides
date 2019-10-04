@@ -1,25 +1,23 @@
 
 ## Download the BitBox App
 In order to set up your {{include.product}} and create your first wallet you need to download the BitBox App for your computer.
-Stay tuned for our mobile app! To be notified when it is available you can subscribe to our newsletter here.
+Stay tuned for our mobile app! To be notified when it is available you can subscribe to our newsletter [here](https://shiftcrypto.us20.list-manage.com/subscribe/post?u=d425177ce9ba3482f7f26762a&id=df03d20df1)
 
 [Download](https://shiftcrypto.ch/start/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
----
+
 
 ## Launch the BitBox app
 
 Once the download is finished, please unpack the app (doube-click on it) and pull it into your application folder.
-
 Then double-click it to launch it.
-
 You should then see a screen that asks you to plug in your {{include.product}}.
 
 ![alt text]({% link assets/images/BitBoxApp/BitBox_App_waiting.png %})
 
 
----
+
 
 ## Insert microSD card & plug in your {{include.product}}
 Before you plug in your {{include.product}}, please already **insert the microSD card** which will be needed in a later step.
@@ -29,7 +27,7 @@ When done, please plug the {{include.product}} into your computer. Depending on 
 {% elsif include.product == "BitBox01" %}
 When done, please plug the {{include.product}} into your computer.
 {% endif %}
----
+
 
 ## Follow the in-App setup-wizard
 
