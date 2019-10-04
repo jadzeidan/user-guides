@@ -42,31 +42,32 @@ Most laptops have ports on both sides and as we cannot know from which side you 
 
 To do that just touch the {{include.product}} on the side that is closer to you.
 
-IMAGE
+//TODO: IMAGE
 
 ### Step 2: Confirm pairing code
-All information that is exchanged between your computer and the {{include.product}} is encrypted. In order to make sure that there is no man-in-the-middle attack we need to ask you to confirm that the code on your screen and the code on your {{include.product}} are identical.
+All information that is exchanged between your computer and the {{include.product}} is encrypted. In order to make sure that there is no man-in-the-middle attack we need to ask you to confirm that the code on in the BitBox App and the code on your {{include.product}} are identical.
 
-Please take the time to check all characters.
+Please take the time to check each characters.
 ![alt text]({% link assets/images/BitBox02_wizard/step2.png %})
 
-If both codes match, please confirm on your {{include.product}}, then click "Confirm & Continue" in the BitBox App.
+If both codes match please confirm on your {{include.product}}, then click "Continue" in the BitBox App.
 ### Step 3: Choose if you want to create a new wallet or restore an existing wallet
 
 Now you are asked to choose if you want to create a new wallet or restores an existing wallet.
 
 ![alt text]({% link assets/images/BitBox02_wizard/step3.png %})
 
-If this is the first time you create a wallet choose "Create Wallet".
+- If this is the first time you create a wallet choose "Create Wallet".
 
-If you already used a {{include.product}} before and you want to restore your wallet from your backup file choose "Restore Backup". (Link to restore wallet)
+- If you already used a {{include.product}} before and you want to restore your wallet from your backup file choose "Restore Backup" and follow [this guide]({% link bitbox02/Basic-features/restore_from_backup.md %})
 
-If you used a different hardware wallet before and you want to restore from the mnemonic seed phrase created by that other wallet, choose "Restore from BIP-39 mnemonic". (link to import bip39)
+- If you used a different hardware wallet before and you want to restore from the seed phrase created by that other wallet, choose "Restore from BIP-39 mnemonic" and follow [this guide]({% link 404.html %}) (TODO)
+>**Attention**: The BitBox02 only supports Segwit (starting with 3...) and Native-Segwit (starting with bc1....) accounts. If you import a seed that you used with the Legacy address format (starting with 1...) you won't see these coins in the BitBox App. We recommend you ro move these coins to a Segwit or Native-Segwit Account.
 
 ### Step 4: Create a wallet
 First you need to give your wallet a name. This name can be anything, choose a name that you will recognise in the future when you might need to restore from your backup.
 
-If you cannot click the "Name Device & Continue" button make sure that you have your microSD card plugged into the {{include.product}} correctly.
+If you cannot click the "Continue" button make sure that you have your microSD card plugged into the {{include.product}} correctly and given the wallet a name.
 ![alt text]({% link assets/images/BitBox02_wizard/step4b.png %})
 
 Please then confirm the wallet name on your {{include.product}}.
@@ -79,17 +80,17 @@ The setup wizard will show you a video of how to use the touch buttons on your B
 ![alt text]({% link assets/images/BitBox02_wizard/step5.png %})
 
 ### Step 6: Create your wallet backup
-After the device password is set, the {{include.product}} will create a backup of your wallet and safe it on the microSD card. To start that process click "Create Backup".
+After the device password is set, the {{include.product}} will create a backup of your wallet and safe it on the microSD card. Please check the boxes to confirm that you understand the security considerations, then click "Continue".
 
 Your {{include.product}} will then ask you to confirm today's date as that is needed for the backup file.
 
-> The backup file on your microSD card is not password protected, unless you use the advanced passphrase feature (link). That means should someone find your microSD card they can steal your funds. Therefore you should **make sure that you store it in a secure location.**
+> The backup file on your microSD card is not password protected, unless you use the [optional passphrase feature]({% link bitbox02/Advanced-features/passphrase.md %}). That means if someone find your microSD card they can steal your funds. Therefore you should **make sure that you store it in a secure location.**
 
 ![alt text]({% link assets/images/BitBox02_wizard/step6.png %})
 
-If you want, you can create multiple backups on multiple microSD cards. To do so follow [this guide]({% link bitbox02/Basic-features/managing_backups.md %}#creating-a-new-backup)
+- If you want, you can create multiple backups on multiple microSD cards. To do so follow [this guide]({% link bitbox02/Basic-features/managing_backups.md %}#creating-a-new-backup)
 
-You can at any point check that you still have a valid wallet. To do so follow [this guide]({% link bitbox02/Basic-features/managing_backups.md %}#verifying-a-backup.md)
+- You can at any point check that you still have a valid wallet. To do so follow [this guide]({% link bitbox02/Basic-features/managing_backups.md %}#verifying-a-backup.md)
 
 {% elsif include.product == "BitBox01" %}
 ### Step 1: Choose if you want to create a new wallet or restore an existing wallet
@@ -138,7 +139,7 @@ Please also give your wallet a name that you can remember.
 {% endif %}
 
 ### Step 7: Start stacking sats
-Great! Your {{include.product}} is ready to use. Please make sure that you store your backup on your microSD card in a **secure location.**
+Great! Your {{include.product}} is ready to use. Please make sure that you store your backup microSD card in a **secure location.**
 {% if include.product == "BitBox02" %}
 ![alt text]({% link assets/images/BitBox02_wizard/step7.png %})
 {% elsif include.product == "BitBox01" %}

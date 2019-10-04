@@ -20,17 +20,20 @@ grand_parent: BitBox02
 
 ## Thank you
 
-for buying a Shift Cryptosecurity product. We hope you will enjoy using it. If you can't find what you're looking for in this guide, please don't hesitate to [contact us](mailto:support@shiftcrypto.ch)
+for buying a Shift Cryptosecurity product. We hope you will enjoy using it. If you can't find what you're looking for in this guide, please don't hesitate to {% include contact_small.html url=page.url %}
 
 ---
 
 ## Packaging
 
-Before you start using your device, please make sure that the vacuum bag is still sealed with the original bag.
+Before you start using your device, please make sure that the vacuum bag is still sealed.
 
-Here is a photo of what it should look like:
+Here is a photo of what it should look like.
 
-![alt text]({% link assets/images/BitBox02/06_bb02_vac.png %})
+![alt text]({% link assets/images/BitBox02/06_bb02_vac.png %}){:height="300" width="300"}
+![alt text]({% link assets/images/BitBox02/06_bb02_btc_vac.png %}){:height="300" width="300"}
+
+Left: [BitBox02-Multi edition](https://shiftcrypto.ch/bitbox02/), Right: [BitBox02-Bitcoin only edition](https://shiftcrypto.ch/bitbox02/)
 
 ## In the box
 
