@@ -5,7 +5,7 @@
 {% endif %}
 
 ## Secrets section
-At the top of the device settings you can find the "secrets" section. This section is all about making sure your funds are secure.
+At the top of the device settings you can find the "Secrets" section. This section is all about making sure your funds are secure.
 
 It let's you:
 {% if include.product == "BitBox02" %}
