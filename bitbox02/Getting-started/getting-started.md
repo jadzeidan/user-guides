@@ -9,4 +9,4 @@ parent: BitBox02
 # {{page.parent}}: {{page.title}}
 {: .no_toc }
 
-These are the steps we will take together to get you started:
+Here are the steps we will take you through to get you started:
