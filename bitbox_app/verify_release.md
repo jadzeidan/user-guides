@@ -17,7 +17,9 @@ parent: BitBox App
 
 In order to verify the downloaded BitBox App please do the following:
 
-## Get Benma's (lead developer) public key
+## Get benma's public key
+<small>Info: Benma is the lead developer of the BitBox App.</small>
+
 Run in your command line:
 
 ```
@@ -32,14 +34,14 @@ Download both from [Github](https://github.com/digitalbitbox/bitbox-wallet-app/r
 If you have already downloaded the BitBox App from our website then just download the .asc file that corresponds to your operating system.
 
 ## Place BitBox App and .asc file in separate folder
-Create a new folder and move both the BitBox App and the .asc file into that folder.
+Create a new folder and move both, the uninstalled/unzipped BitBox App file and the .asc file into that folder.
 
 ## Verify signatures
 On your command line navigate into the newly created folder and run the following command:
 
 `gpg --verify BitBox-4.13.1-macOS.zip.asc`
 
-(Depending on when you do this update the command to use the .asc file you just dowloaded).
+(Depending on when you do this update the command to use the corresponding .asc file you just dowloaded).
 
 ### You should then see the following:
 
@@ -52,3 +54,4 @@ gpg: Good signature from "Marko Bencun <marko@shiftcrypto.ch>" [ultimate]
 gpg:                 aka "Marko Bencun <mbencun+pgp@gmail.com>" [ultimate]
 
 ```
+(The [ultimate] could say [unknown] or something else depending on your trust level.)

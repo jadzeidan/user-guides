@@ -4,8 +4,8 @@ There are four different types of transactions that can show up in your transact
 ### Pending incoming transaction
 An incoming transaction will at first be pending. That means it is not confirmed in the Bitcoin blockchain yet. You can see that the transaction in the screenshot is pending in two spots.
 
-1. It says "Pending transaction" on the right of the green "In" symbol
-2. Below the wallet balance, which is still zero as only confirmed transactions are counted, it says "Incoming +0.002 BTC"
+1. It says "Pending" on the "STATUS" column.
+2. Below the wallet balance it says "Incoming +0.00093551 BTC"
 
 ![alt text]({% link assets/images/BitBox_history/pending_incoming.png %})
 
@@ -16,7 +16,7 @@ Once a formerly pending transaction has its first confirmation (i.e. it was incl
 
 
 ### Pending outgoing transaction
-An outgoing transaction will at first be pending. That means it is not confirmed in the Bitcoin blockchain yet. You can see that the transaction in the screenshot is pending as it says "Pending transaction" on the right of the red "Out" symbol
+An outgoing transaction will at first be pending. That means it is not confirmed in the Bitcoin blockchain yet. You can see that the transaction in the screenshot is pending as it says "Pending" in the "STATUS" column.
 
 
 ![alt text]({% link assets/images/BitBox_history/pending_outgoing.png  %})
@@ -28,13 +28,8 @@ Once a formerly pending transaction has its first confirmation (i.e. it was incl
 IMAGE
 
 ## Transaction details
-If you want to see further details about a transaction you can click on the downward arrow on the left of the green/red transaction type.
+If you want to see further details about a transaction you can click on the "details symbol" on the left of each row.
 
-Clicking that will drop down and show you the following transaction details:
-* Number of confirmations
-* Virtual transaction size
-* Transaction size
-* Transaction weight
-* Transaction ID with link to block explorer
+Clicking that will open a pop-up and show you additional transaction details.
 
 ![alt text]({% link assets/images/BitBox_history/transaction_details.png %})

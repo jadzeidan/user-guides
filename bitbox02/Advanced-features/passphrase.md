@@ -16,7 +16,7 @@ grand_parent: BitBox02
 {:toc}
 ---
 ## How it works
-When you set up a BitBox02, it  generates a long random number which is converted into a mnemonic seed, which is  stored on the device and on the microSD card backup.
+Simplified: When you set up a BitBox02, it  generates a "long random number" which is converted into a mnemonic seed, which is  stored on the device and on the microSD card backup.
 
 Subsequently, whenever the BitBox02 is used, it derives a cryptocurrency wallet via a (very simplified) formula:
 **mnemonic seed + passphrase**
@@ -49,12 +49,12 @@ If you enter an empty passphrase (no passphrase at all), your BitBox02 will proc
 The idea behind this is that if you ever find yourself in a situation where somebody is trying to extort a ransom from you or puts you under duress, you can safely give up the PIN.
 
 ### Risks of using a passphrase
-1. Because the passphrase is not stored anywhere, you need to take all necessary precautions in order to make sure the passphrase stays safe and accessible, be it a physical backup or just your memory.
+1. Because the passphrase is not stored anywhere automatically, you need to take **all necessary precautions** in order to make sure that the passphrase stays safe and accessible e.g. by making a physical backup.
 2. If the passphrase is lost, it can only be found by guessing (brute-forcing) which is often technologically and economically infeasible (read impossible). The difficulty of guessing the passphrase varies depending on the strength (complexity) of the passphrase.
 
 ## Using a passhrase
-### Enable Mnemonic Passphrase in device settings
-Go to "Device settings" and click "Enable Mnemonic Passphrase".
+### Enable optional passphrase in device settings
+Go to "Device settings" and click "Enable optional passphrase".
 ![alt text]({% link assets/images/BitBox02_passphrase/passphrase1.png %})
 
 You will then see the following warning
@@ -65,9 +65,10 @@ Please make sure you understand how a passphrase works. If that is the case, con
 Then you will see the following:
 ![alt text]({% link assets/images/BitBox02_passphrase/passphrase3.png %})
 
-From now on you will be asked for a passphrase after every device unlock. If you want to use your "normal" wallet just confirm directly i.e. with no passphrase input.
+From now on you will be asked for a passphrase after every device unlock.
+- If you want to use your "normal" wallet just confirm directly i.e. with no passphrase input / empty passphrase.
 
-If you want to access a passphrase-protected wallet, type in the corresponding passphrase and then confirm.
+- If you want to access a passphrase-protected wallet, type in the corresponding passphrase and then confirm.
 
-### Pro tip: hiding that you are using passphrases.
-If you don't want to be asked for your passphrase every time you unlock your BitBox02 you can click "Disable Mnemonic Passphrase" at any time in the device settings. As no data about your passhrase is stored on the device (you need to backup/memorise your passphrase independently) nothing is deleted. If you want to use the passphrase-protected wallet again you can just "Enable Mnemonic Passphrase" again and then use the same passphrase again to access that wallet.
+### Pro tip: hiding that you are using a passphrase.
+If you don't want to be asked for your passphrase every time you unlock your BitBox02 you can click "Disable optional passphrase" at any time in the device settings. As no data about your passphrase is stored on the device (you need to backup your passphrase independently) nothing is deleted. If you want to use the passphrase-protected wallet again you can just "Enable optional passphrase" again and then use the same passphrase again to access that wallet.

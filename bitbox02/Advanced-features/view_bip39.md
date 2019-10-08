@@ -22,7 +22,7 @@ If you want to make a backup to a microSD card, [follow this guide]({% link bitb
 If you want to display your BIP39 mnemonic seed on your BitBox02 in order to write it on paper or punch it into metal continue reading.
 > **Note:** It is not necessary to write down your BIP39 mnemonic seed as you have already created a wallet backup onto a microSD card when you initialised your BitBox02. This is an advanced feature.
 
-## Click "Show BIP39 Mnemonic" and confirm risks
+## Show BIP39 mnemonic seed
 In "Device settings" click "Show BIP39 Mnemonic".
 ![alt text]({% link assets/images/BitBox02_mnemonic/bip39_1.png %})
 

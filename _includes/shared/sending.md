@@ -9,15 +9,15 @@
 ![alt text]({% link assets/images/BitBox02_send/send4.png %})
 
 ## Choose the fee
-The higher the fee, the quicker your transaction will be confirmed in the blockchain. A low fee should be sufficient for most cases.
+The higher the fee, the quicker your transaction will be confirmed in the blockchain. A low fee should be sufficient in most cases.
 ![alt text]({% link assets/images/BitBox02_send/send5.png %})
 
 ## Click "Sign and Send"
 ![alt text]({% link assets/images/BitBox02_send/send6.png %})
 
 {% if include.product == "BitBox02" %}
-## Verify the details in the app and on your {{include.product}}
-It is crucial that you make sure the transaction details are correct. There is no reverse button in Bitcoin.
+## Verify the transaction details on your {{include.product}}
+It is crucial that you make sure the transaction details are correct. **There is no reverse button in Bitcoin.**
 
 Please double check all transaction details on your {{include.product}}.
 
@@ -36,6 +36,3 @@ If you confirmed the transaction on your  {{include.product}} you should see thi
 Please confirm or deny the transaction on your {{include.product}}
 ![alt text]({% link assets/images/BitBox01_random/bb01_send1.png %})
 {% endif %}
-
-In this case the address I sent to was an address I got by clicking the receive button, i.e. I sent the coins from my  {{include.product}} to my  {{include.product}}, therefore the transaction is labeled as "Self" in the transaction history view.
-![alt text]({% link assets/images/BitBox02_send/send9.png  %})
