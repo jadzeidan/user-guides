@@ -51,18 +51,19 @@ Please take the time to check each characters.
 ![alt text]({% link assets/images/BitBox02_wizard/step2.png %})
 
 If both codes match please confirm on your {{include.product}}. Then click "Continue" in the BitBox App.
-### Step 3: Choose if you want to create a new wallet or restore an existing wallet
+### Step 3: Create new wallet or restore an existing wallet
 
 Now you are asked to choose if you want to create a new wallet or restore an existing wallet.
 
 ![alt text]({% link assets/images/BitBox02_wizard/step3.png %})
 
-- If this is the first time you create a wallet, choose "Create Wallet".
-
 - If you already used a {{include.product}} before and you want to restore your wallet from your backup choose "Restore Backup" and follow [this guide]({% link bitbox02/Basic-features/restore_from_backup.md %})
 
 - If you used a different hardware wallet before and you want to restore from the seed phrase created by that other wallet, choose "Restore from BIP-39 mnemonic" and follow [this guide]({% link 404.html %}) (TODO)
 >**Attention**: The BitBox02 only supports Segwit (starting with 3...) and Native-Segwit (starting with bc1....) accounts. If you import a seed phrase that you used with the Legacy address format (starting with 1...) you won't see these coins in the BitBox App. We recommend you to move these coins to a Segwit or Native-Segwit account.
+
+- If this is the first time you create a wallet, choose "Create Wallet" and continue reading this guide.
+
 
 ### Step 4: Create a wallet
 First you need to give your wallet a name. This name can be anything, choose a name that you will recognise in the future when you might need to restore from your backup.
@@ -92,22 +93,24 @@ Your {{include.product}} will then ask you to confirm today's date as that is ne
 - You can at any point check that you still have a valid backup. To do so follow [this guide]({% link bitbox02/Basic-features/managing_backups.md %}#verifying-a-backup.md)
 
 {% elsif include.product == "BitBox01" %}
-### Step 1: Choose if you want to create a new wallet or restore an existing wallet
+### Step 1: Create new wallet or restore an existing wallet
 Now you are asked to choose if you want to create a new wallet or restores an existing wallet.
 
-If this is the first time you create a wallet choose "Create Wallet".
+- If you already used a {{include.product}} before and you want to restore your wallet from your backup, choose "Restore a wallet from a backup" and follow [this guide]({% link bitbox01/basic-features/restore_from_backup.md %}).
 
-If you already used a {{include.product}} before and you want to restore your wallet from your backup file choose "Restore a wallet from a backup". (Link to restore wallet)
+- If this is the first time you create a wallet, choose "Create a new wallet" and continue with this guide.
+
 ![alt text]({% link assets/images/BitBox01_setup/bb01_setup1.png  %})
+
 
 ### Step 2: Understand the {{include.product}} passwords
 The {{include.product}} makes use of two passwords:
-* a **device password**, that you need whenever you want to use your {{include.product}}. This password can be changed later.
-* a **recovery password** that protects your backup. This password can **NOT** be changed later.
+* A **device password** that you need whenever you want to use your {{include.product}}. This password can be changed later.
+* A **recovery password** that protects your backup. This password can **NOT** be changed later.
 
 **Important:** If you lose your {{include.product}} you will need your backup microSD card **AND** the recovery password in order to restore your wallet. **Just the backup microSD card is not enough.**
 
-**Therefore please ensure that you keep your recovery password and backup microSD card safe.**
+**Therefore please ensure that you keep your recovery password and backup microSD card safe and accessible.**
 ![alt text]({% link assets/images/BitBox01_setup/bb01_setup2.png %})
 
 ### Step 3: Start the setup process
@@ -115,19 +118,19 @@ Read the information and click "Continue"
 ![alt text]({% link assets/images/BitBox01_setup/bb01_setup3.png %})
 
 ### Step 4: Set device password
-Now please set and confirm your device password. This password is needed whenever you want to use your {{include.product}}. It password can be changed later.
+Now please set and confirm your device password. This password is needed whenever you want to use your {{include.product}}. It can be changed later.
 
 Click "Set device password"
 ![alt text]({% link assets/images/BitBox01_setup/bb01_setup4.png %})
 
 ### Step 5: Create wallet and microSD card backup
-Next your wallet will be created. For that your microSD card needs to be plugged in, so that the backup file can be saved on it.
+Next your wallet will be created. For that your microSD card needs to be inserted, so that the backup file can be saved on it.
 
-If your have not yet plugged in a microSD card, please do so now and click "Set recovery password now".
+If your have not yet inserted a microSD card into your {{ include.product }}, please do so now and click "Set recovery password now".
 ![alt text]({% link assets/images/BitBox01_setup/bb01_setup5.png %})
 
 ### Step 6: Set recovery password
-In this step you will set the recovery password that protects your backup microSD card.
+In this step you will set the recovery password that protects your wallet backup on the microSD card.
 
 This password can **NOT** be changed later.
 
@@ -139,7 +142,7 @@ Please also give your wallet a name that you can remember.
 
 ### Step 7: Start stacking sats
 Great! Your {{include.product}} is ready to use. Please make sure that you store your microSD backup in a **secure location.**
->The microSD card is not needed to use your {{ include.product }} in normal use. It is only needed when you want to restore your wallet from your microSD backup.
+>The microSD card is not needed to use your {{ include.product }} in normal use. It is only needed when you want to restore your wallet from your microSD backup. Please store your microSD card in a secure location. 
 {% if include.product == "BitBox02" %}
 ![alt text]({% link assets/images/BitBox02_wizard/step7.png %})
 {% elsif include.product == "BitBox01" %}

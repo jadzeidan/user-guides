@@ -15,11 +15,11 @@ grand_parent: BitBox01
 {:toc}
 
 
-## Smart verification using the BitBox mobile app
 ![alt text]({% link assets/images/BitBox01_pairing/pair1.png %})
 
 There are two levels of pairing available:
-### Normal pairing:
+
+## Normal pairing:
 - Lets you verify addresses on your smartphone
 - Requires you to confirm transactions on your smartphone
 
@@ -54,7 +54,7 @@ Then wait a few seconds until a connection is established and click "begin" in t
 ![alt text]({% link assets/images/BitBox01_pairing/pair4.png  %})
 Your BitBox01 will then blink, asking you to perform a long-touch on the LED in order to confirm that you want to pair.
 
-After that you will see the following screen on your mobile app (left). Please click "BLINK".
+After that you will see the following screen on your mobile app. Please click "BLINK".
 Your BitBox01 will then blink between 1-4 times, please count and press the correct number in the mobile app.
 Please repeat that until you can click "FINISH"
 
@@ -69,12 +69,13 @@ In the "Manage Device" settings you should then see "Status" paired
 
 
 
-## Verifying addresses and transactions
+### Verifying addresses and transactions
+Information received by the BitBox01 automatically displays in the mobile app when connected to the internet.
+Otherwise, get the information by scanning QR codes presented by the desktop app.
+
 ![alt text]({% link assets/images/BitBox01_pairing/ios_receiving.png  %}){:height="250" width="250"}
 ![alt text]({% link assets/images/BitBox01_pairing/ios_sending_01.png  %}){:height="250" width="250"}
 
-Information received by the BitBox displays automatically in the mobile when connected to the internet.
-Otherwise, get the information by scanning QR codes presented by the desktop app.
 
 
 ## Full second-factor authentication (2FA)
@@ -82,4 +83,4 @@ Otherwise, get the information by scanning QR codes presented by the desktop app
 
 When full 2FA is enabled, possession of the mobile phone is required in order to spend coins. Full 2FA is enabled using the 'Settings' tab in the desktop app. Under the hood, an encrypted single-use PIN is sent to the mobile app, decrypted there, and returned to the BitBox when pressing the Accept button.
 
->**Warning!** Be sure that you have a valid microSD card backup and know your recovery password before enabling 2FA. [Click here to see how to check if you have a valid backup.]({%link bitbox01/basic-features/managing_backups.md %}#verifying-a-backup) Once enabled, the micro SD slot, necessary for backups, and mobile app pairing is disabled. These are re-enabled only after resetting your BitBox. To then restore your wallet you will need the microSD card backup and your recovery password!
+>**Warning!** Be sure that you have a valid microSD card backup and know your recovery password before enabling 2FA. [Click here to see how to check if you have a valid backup.]({%link bitbox01/basic-features/managing_backups.md %}#verifying-a-backup) Once enabled, the microSD slot, necessary for backups, and mobile app pairing is disabled. These are re-enabled only after resetting your BitBox01. To then restore your wallet you will need the **microSD card backup and your recovery password!**

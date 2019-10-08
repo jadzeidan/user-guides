@@ -21,7 +21,7 @@ It let's you:
 ## Pairing section
 The pairing section let's you pair your {{include.product}} with your smartphone via our mobile app. That allows you to require a second factor for your transactions and let's you verify the generated receive address on your Smartphone.
 
-To set up Two-Factor-Authentication follow this guide (coming soon)
+To set up Two-Factor-Authentication follow [this guide]({% link bitbox01/advanced-features/bitbox01_pairing.md %}).
 
 {% endif %}
 

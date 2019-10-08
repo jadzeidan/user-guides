@@ -28,6 +28,5 @@ If you want to reset your BitBox01 without the BitBox App, just type in an incor
 Go to "Device Settings" and select "Reset Device."
 ![alt text]({% link assets/images/BitBox02_reset/reset1.png %})
 
-Then type in your device password in order to confirm that you want to reset the BitBox01, tick the box to confirm that you have a valid backup and recovery password (if you are not sure, please verify by following [this guide]({% link bitbox01/basic-features/managing_backups.md %}#verifying-a-backup)
-) and click "Reset Device".
+Then type in your device password in order to confirm that you want to reset the BitBox01, tick the box to confirm that you have a valid backup and recovery password (if you are not sure, please verify by following [this guide]({% link bitbox01/basic-features/managing_backups.md %}#verifying-a-backup)) and click "Reset Device".
 ![alt text]({% link assets/images/BitBox01_random/bb01_reset.png %})
