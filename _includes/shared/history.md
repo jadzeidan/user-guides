@@ -25,7 +25,7 @@ An outgoing transaction will at first be pending. That means it is not confirmed
 ### Confirmed outgoing transaction
 Once a formerly pending transaction has its first confirmation (i.e. it was included in a block) it is shown as a confirmed transaction and the transaction amount is deducted from your wallet balance.
 
-IMAGE
+![alt text]({% link assets/images/BitBox_history/confirmed_outgoing.png  %})
 
 ## Transaction details
 If you want to see further details about a transaction you can click on the "details symbol" on the left of each row.
