@@ -18,11 +18,20 @@ parent: BitBox App
 
 ---
 
-One of the advanced features of the new BitBox Desktop App is Coin Control. It adds a privacy enhancing capability by allowing you to choose which unspent transaction outputs(UTXO) you want to use for your transaction.
+One of the advanced features of the new BitBoxApp is Coin Control. It adds a privacy enhancing capability by allowing you to choose which unspent transaction outputs(UTXO) you want to use for your transaction.
 
 ## Enable coin control
-To enable coin control go into the BitBox App settings and under "Expert Settings" tick "Enable coin control"
+To enable coin control go into the BitBoxApp settings and under "Expert Settings" tick "Enable coin control".
 ![alt text]({% link assets/images/BitBoxApp/app_settings1.png %})
 
 ## Use coin control
-Work in Progress
+### Open the account you want to spend from and click "Send"
+![alt text]({% link assets/images/Coin_Control/coin_control1.png %})
+
+### Click "Toggle Coin Control" and select UTXOs
+Select the UTXO(s) you want to use as inputs for your transaction.
+![alt text]({% link assets/images/Coin_Control/coin_control2.png %})
+![alt text]({% link assets/images/Coin_Control/coin_control4.png %})
+
+### Fill out the transaction details
+Now just fill out the transaction details as usual. Keep in mind that only the UTXO(s) that you have selected will be used as inputs which means that clicking "Send all" sends the sum of the selected UTXO(s) (minus fees), not your whole account balance. 
