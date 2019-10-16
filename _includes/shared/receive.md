@@ -6,7 +6,7 @@
 
 ## Select coin and type
 
-Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({% link bitbox_app/settings.md %}#bitbox-app-settings)
+Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({% link bitbox-app/settings.md %}#bitbox-app-settings)
 
 
 ---
@@ -24,7 +24,7 @@ You will then see the first few characters of a receive address. In order to get
 
 ![alt text]({% link assets/images/BitBox02_receive/receive2.png %})
 
-The address will then be shown on your {{include.product}} and the BitBox App at the same time.
+The address will then be shown on your {{include.product}} and the BitBoxApp at the same time.
 {% endif %}
 
 ## Copy or scan address
