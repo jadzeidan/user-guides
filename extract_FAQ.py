@@ -247,7 +247,7 @@ json = {
       },
       "welcome": {
         "text": "Thanks for using this app built by Shift Cryptosecurity in Switzerland. We appreciate any input you have to share. Please give feedback using the link at the bottom.",
-        "title": "Welcome to the BitBox app!"
+        "title": "Welcome to the BitBoxApp!"
       }
     }
   }

@@ -3,9 +3,11 @@
 ![alt text]({% link assets/images/BitBox02_send/send1.png %})
 
 ## Paste in the address you want to send to
+Or click the QR-code symbol to use your device camera to scan a QR-code.
 ![alt text]({% link assets/images/BitBox02_send/send3.png %})
 
 ## Enter the amount you want to send
+You can either type in the amount in cryptocurrency or in fiat. 
 ![alt text]({% link assets/images/BitBox02_send/send4.png %})
 
 ## Choose the fee
