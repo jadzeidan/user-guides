@@ -26,7 +26,7 @@ Here is a photo of what it should look like:
 ![alt text]({% link assets/images/BitBox02/06_bb02_vac.png %}){:height="300" width="300"}
 ![alt text]({% link assets/images/BitBox02/06_bb02_btc_vac.png %}){:height="300" width="300"}
 
-Left: [BitBox02-Multi edition](https://shiftcrypto.ch/bitbox02/), Right: [BitBox02-Bitcoin only edition](https://shiftcrypto.ch/bitbox02/)
+Left: [BitBox02 multi edition](https://shiftcrypto.ch/bitbox02/), Right: [BitBox02 Bitcoin-only edition](https://shiftcrypto.ch/bitbox02/)
 
 ## In the box
 

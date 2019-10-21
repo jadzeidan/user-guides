@@ -16,6 +16,8 @@ grand_parent: BitBox01
 {:toc}
 
 ---
+
+Please make sure that you have the latest firmware. To download click [here](https://shiftcrypto.ch/start/).
 This guide demonstrates how to sweep all funds from an old BitBox01 (aka. Digital BitBox) wallet onto a newly created wallet from both standard and (optionally) hidden wallets. The basic procedure is:
 1. Verify you the backup of your current wallet
 2. Reset your BitBox01
