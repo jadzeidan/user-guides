@@ -6,7 +6,7 @@
 
 ## Select account
 
-Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({% link bitbox-app/settings.md %}#bitbox-app-settings)
+Use the menu on the left to choose the coin (and type) you would like to receive. To activate more coins and types check out [this guide.]({% link bitboxapp/settings.md %}#active-accounts)
 
 
 ---

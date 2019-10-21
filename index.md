@@ -17,4 +17,4 @@ Hi there, please select the product you would like to see the guides for:
 
 
 ## BitBoxApps
-[BitBoxApp (Desktop)]({% link bitbox-app/index.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
+[BitBoxApp (Desktop)]({% link bitboxapp/index.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }

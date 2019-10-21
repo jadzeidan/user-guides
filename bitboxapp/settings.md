@@ -40,4 +40,4 @@ All activated accounts show up in the left menu bar. Please check each of these 
 
 
 ## Expert settings
-In this section you can enable [Coin control]({% link bitbox-app/coin-control.md %}) connect the BitBoxApp to [your own full node.]({% link bitbox-app/full-node.md %})
+In this section you can enable [Coin control]({% link bitboxapp/coin-control.md %}) connect the BitBoxApp to [your own full node.]({% link bitboxapp/full-node.md %})

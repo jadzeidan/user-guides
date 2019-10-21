@@ -48,7 +48,7 @@ Your BitBox02 should still be plugged in and unlocked.
 7. Repeat steps 4-6 for all currency and types (e.g. Bitcoin has multiple address types, you can select all of them in the BitBoxApp settings) that you want to sweep form your BitBox01 to BitBox02.
 8. Remember how many test transactions you made.
 9. Unplug your BitBox01, plug in your BitBox02, unlock it with your BitBox02 device password.
-10. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitbox-app/settings.md %}#troubleshooting-my-coins-are-gone-after-bitbox-app-update)).
+10. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitboxapp/settings.md %}#troubleshooting-my-coins-are-gone-after-bitboxapp-update)).
 
 **If that is the case:**
 
@@ -90,7 +90,7 @@ Now we need to do two wallet sweeps.
 7. Repeat steps 4-6 for all currency and types (e.g. Bitcoin has multiple address types, you can select all of them in the BitBoxApp settings) that you want to sweep form your BitBox01 to BitBox02.
 8. Remember how many test transactions you made.
 9. Unplug your BitBox01, plug in your BitBox02, unlock it with your BitBox02 device password.
-10. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitbox-app/settings.md %}#troubleshooting-my-coins-are-gone-after-bitbox-app-update)).
+10. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitboxapp/settings.md %}#troubleshooting-my-coins-are-gone-after-bitboxapp-update)).
 
 **If that is the case:**
 
@@ -121,7 +121,7 @@ If you can't see all your test transactions after a few minutes:
 10. Repeat steps 6-9 for all currency and types (e.g. Bitcoin has multiple address types, you can select all of them in the BitBoxApp settings) that you want to sweep form your BitBox01 to BitBox02.
 11. Remember how many test transactions you made.
 12. Unplug your BitBox01, plug in your BitBox02, unlock it with your BitBox02 device password.
-13. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitbox-app/settings.md %}#troubleshooting-my-coins-are-gone-after-bitbox-app-update)).
+13. Check that all test transactions arrived on your BitBox02 ([you might need to enable more coins/types in the BitBoxApp settings]({%link bitboxapp/settings.md %}#troubleshooting-my-coins-are-gone-after-bitboxapp-update)).
 
 **If that is the case:**
 
