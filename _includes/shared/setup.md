@@ -7,8 +7,6 @@ Stay tuned for our mobile app! To be notified when it is available you can subsc
 [Download](https://shiftcrypto.ch/start/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
-
-
 ## Launch the BitBoxApp
 
 Once the download is finished, please install and launch the app.
@@ -17,7 +15,12 @@ You should then see a screen that asks you to plug in your {{include.product}}.
 
 ![alt text]({% link assets/images/BitBoxApp/BitBox_App_waiting.png %})
 
+{% if include.product == "BitBox02" %}
 
+## Watch the BitBox02 setup video tutorial or continue reading
+{: .no_toc }
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JUODE5-twBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Insert microSD card & plug in your {{include.product}}
@@ -35,7 +38,6 @@ When done, please plug the {{include.product}} into your computer.
 
 Once the {{include.product}} is plugged in, the setup-wizard will automatically start and guide you through the process of setting up your {{include.product}}.
 
-{% if include.product == "BitBox02" %}
 
 ### Step 1: Choose display orientation
 {: .no_toc }
@@ -99,6 +101,23 @@ Your {{include.product}} will then ask you to confirm today's date as that is ne
 - You can at any point check that you still have a valid backup. To do so follow [this guide]({% link bitbox02/basics/managing-backups.md %}#verifying-a-backup.md)
 
 {% elsif include.product == "BitBox01" %}
+
+## Insert microSD card & plug in your {{include.product}}
+Before you plug in your {{include.product}}, please **insert the microSD card** which will be needed to create a backup of your wallet in a later step.
+
+{% if include.product == "BitBox02" %}
+When done, please plug the {{include.product}} into your computer.
+Optional: If needed, use the included USB-C to USB-A adapter and/or USB-C extension cable.
+{% elsif include.product == "BitBox01" %}
+When done, please plug the {{include.product}} into your computer.
+{% endif %}
+
+
+## Follow the in-app setup wizard
+
+Once the {{include.product}} is plugged in, the setup-wizard will automatically start and guide you through the process of setting up your {{include.product}}.
+
+
 ### Step 1: Create new wallet or restore an existing wallet
 {: .no_toc }
 Now you are asked to choose if you want to create a new wallet or restores an existing wallet.
