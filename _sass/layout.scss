@@ -148,6 +148,13 @@
   @include fs-6;
 }
 
+.site-title img {
+  @media (max-width: 600px) {
+   height: 80%;
+   width: 80%;
+  }
+}
+
 .menu-button {
   appearance: none;
   display: flex;
