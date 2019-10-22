@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sweep funds from BitBox01 to BitBox02
-nav_order: 3
+nav_order: 4
 has_children: false
 parent: Other guides
 grand_parent: BitBox01

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blink patterns
-nav_order: 3
+nav_order: 2
 has_children: false
 parent: Other guides
 grand_parent: BitBox01

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Backup center (BitBox01 aka. Digital BitBox)
-nav_order: 2
+nav_order: 3
 has_children: false
 parent: Other guides
 grand_parent: BitBox01
