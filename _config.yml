@@ -32,7 +32,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Guides are under construction  &#128679;":
+  "Back to shiftcrypto.ch": "https://shiftcrypto.ch"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2017-2019 Shift Cryptosecurity."
