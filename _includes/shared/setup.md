@@ -20,7 +20,7 @@ You should then see a screen that asks you to plug in your {{include.product}}.
 ## Watch the BitBox02 setup video tutorial or continue reading
 {: .no_toc }
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//JUODE5-twBs' frameborder='0' allowfullscreen></iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/z7nRq2OEhiw' frameborder='0' allowfullscreen></iframe></div>
 
 
 ## Insert microSD card & plug in your {{include.product}}
