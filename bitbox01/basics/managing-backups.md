@@ -27,6 +27,7 @@ Normally that is just one file.
 ![alt text]({% link assets/images/BitBox01_random/bb01_backup1.png %})
 
 ## Verifying a backup
+### Normal wallet
 In order to verify a backup select it, then click "Check Backup".
 
 You will then be asked to input the recovery password for that wallet backup file.
@@ -37,6 +38,20 @@ You will then be asked to input the recovery password for that wallet backup fil
 - **If you input a different recovery password a different wallet will be generated which therefore does not match the wallet you are currently using on your BitBox01 and the app will tell you: "Backup does NOT match the wallet."**
 
 **Info:** There is no such thing as an incorrect recovery password. Your recovery password is combined with your wallet backup file and a wallet is generated from that. If you input a different recovery password (not the one you used when you generated your wallet) it will still generate a valid wallet, however that wallet won't contain your coins. You can think of the recovery password like a "passphrase". For more information [check this guide]({% link bitbox02/advanced/passphrase.md %})
+
+### Hidden wallet
+In order to verify a hidden wallet backup select the backup file, then click "Check Backup".
+
+You will then be asked to input the hidden wallet recovery password.
+
+**If the password is correct you will see the "Backup matches wallet" message.**
+
+> If the hidden wallet password check fails, you might have a “legacy hidden wallet”, which is a hidden wallet set up before firmware v3.0.0. A legacy hidden wallet is linked to a standard wallet, such that if the backup is verified for the standard wallet, the hidden wallet is also safe.
+
+In order to access the "Legacy hidden wallet", first login to the BitBox01 using your normal device password. Then go to "Manage device", expand the Guide section on the right, and next expand the section "How do I access the legacy hidden wallet". Here you can enable the legacy hidden wallet mode. Finally, unplug and re-insert the BitBox01 and enter your legacy hidden wallet password. If the password is correct, you will now enter the wallet and see your funds as expected.
+
+
+
 
 
 ## Creating a new backup
