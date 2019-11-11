@@ -23,7 +23,7 @@ There are two levels of pairing available:
 - Lets you verify addresses on your smartphone
 - Requires you to confirm transactions on your smartphone
 
-Use a mobile phone as a large screen for securely verifying transactions and receiving addresses created by the BitBox. This avoids man-in-the-middle attacks on computers that have been fully compromised (i.e. rooted). Optionally in addition, enable the mobile phone as a second-factor authorisation (2FA) device using the desktop app's 'Options' tab.
+Use a mobile phone as a large screen for securely verifying transactions and receiving addresses created by the BitBox. This avoids man-in-the-middle attacks on computers that have been fully compromised (i.e. rooted). Optionally in addition, enable the mobile phone as a second-factor authorization (2FA) device using the desktop app's 'Options' tab.
 Technically, a private and encrypted communication channel between the mobile phone and the BitBox is created using a hashed Elliptic Curve Diffie–Hellman (ECDH) key exchange in combination with off-channel information from a blink code, using the BitBox's LED. All you need to do is count a few blinks and enter them in the mobile phone. See how below.
 
 
@@ -81,7 +81,7 @@ Otherwise, get the information by scanning QR codes presented by the desktop app
 
 
 
-## Level 2: Full second-factor authorisation (2FA)
+## Level 2: Full second-factor authorization (2FA)
 ![alt text]({% link assets/images/BitBox01_pairing/ios_sending_01_lock.png  %}){:height="250" width="250"}
 
 When full 2FA is enabled, possession of the mobile phone is required in order to spend coins. Full 2FA is enabled using the 'Settings' tab in the desktop app. Under the hood, an encrypted single-use PIN is sent to the mobile app, decrypted there, and returned to the BitBox when pressing the Accept button.
