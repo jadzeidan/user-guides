@@ -8,11 +8,11 @@ parent: BitBox01
 
 # BitBox01 end-of-sale/life FAQs
 
-As of 12 November 2019, the BitBox01 is no longer available for purchase. If you are a BitBox01 owner, Please take the time to look through the FAQs below.
+As of 12 November 2019, the BitBox01 is no longer available for purchase. If you are a BitBox01 owner please take the time to look through the FAQs below.
 
 ### Why is BitBox01 no longer being sold?
 
-The BitBox01 was released in 2016 and was being developed since 2014. Four years later, the industry has matured and we believe users should use the most up to date products when it comes to security. The BitBox01 will be superseded by the BitBox02. 
+The BitBox01 was released in 2016 and was being developed since 2014. Four years later, the industry has matured and we believe users should use the most up to date products when it comes to security. The BitBox01 will be superseded by the BitBox02.
 
 For more information, please read our [blog post](https://medium.com/shiftcrypto/announcing-the-bitbox01-aka-digital-bitbox-end-of-sale-and-end-of-life-dates-and-process-1da088f74e32).
 
@@ -26,7 +26,7 @@ After November 2020, we cannot guarantee we will continue releasing updates. But
 
 ### What will happen to my BitBox01 now?
 
-The BitBox01 will still be usable. However after November 2020, it may have limited functionality. For example, it may no longer be supported natively in the app. To avoid unnecessary hassle after the end of support date, we recommend moving over to a BitBox02 before November 2020 
+The BitBox01 will still be usable. However after November 2020, it may have limited functionality. For example, it may no longer be supported natively in the app. To avoid unnecessary hassle after the end of support date, we recommend moving over to a BitBox02 before November 2020.
 
 [How to migrate funds from BitBox01 to BitBox02](https://guides.shiftcrypto.ch/bitbox01/other/sweep-to-bitbox02/).
 
@@ -52,5 +52,5 @@ Yes! We’re offering all BitBox01 customers a 30% loyalty discount to move over
 
 ### I’m still confused, can I talk to someone?
 
-If you have any questions, please contact our support team at support@shiftcrypto.ch.
+If you have any questions, please  {% include contact-small.html %}
 We will still offer customer support to BitBox01 users after November 2020.
