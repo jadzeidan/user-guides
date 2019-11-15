@@ -40,7 +40,7 @@ Choose your platform to download our free mobile app.
 
 
 
-### 2. Pair the mobile app with your BitBox02
+### 2. Pair the mobile app with your BitBox01
 {: .no_toc }
 Click "Pair Mobile App" in the BitBoxApp
 
