@@ -20,11 +20,12 @@ grand_parent: BitBox01
 There are two levels of pairing available:
 
 ## Level 1: Normal pairing
+- Pairing is not persistent, BitBox01 can be re-paired
 - Lets you verify addresses on your smartphone
-- Requires you to confirm transactions on your smartphone
+- Lets you double check transaction details on your smartphone
 
-Use a mobile phone as a large screen for securely verifying transactions and receiving addresses created by the BitBox. This avoids man-in-the-middle attacks on computers that have been fully compromised (i.e. rooted). Optionally in addition, enable the mobile phone as a second-factor authorization (2FA) device using the desktop app's 'Options' tab.
-Technically, a private and encrypted communication channel between the mobile phone and the BitBox is created using a hashed Elliptic Curve Diffie–Hellman (ECDH) key exchange in combination with off-channel information from a blink code, using the BitBox's LED. All you need to do is count a few blinks and enter them in the mobile phone. See how below.
+
+Use a mobile phone as a large screen for securely verifying transactions and receiving addresses created by the BitBox.
 
 
 ### 1. Get the mobile app
@@ -34,9 +35,6 @@ Choose your platform to download our free mobile app.
 - [iOS](https://itunes.apple.com/us/app/digital-bitbox-2fa/id1079896740)
 
 - [Android](https://play.google.com/store/apps/details?id=com.digitalbitbox.tfa)
-
-- [APK Download](https://github.com/digitalbitbox/2FA-app/releases)
-    - Checksum: sha256sum - dbbc41907269605b2e1ec0af79b77af9c034e255f3f8d7b43fe3f11251f6df81
 
 - [Source Code](https://github.com/digitalbitbox/2FA-app)
 
@@ -82,8 +80,14 @@ Otherwise, get the information by scanning QR codes presented by the desktop app
 
 
 ## Level 2: Full second-factor authorization (2FA)
+- Pairs the phone persistently with the BitBox01
+- Reseting the BitBox01 is necessary in order to deactivate 2FA
+- Requires you to confirm transactions on your phone
+
 ![alt text]({% link assets/images/BitBox01_pairing/ios_sending_01_lock.png  %}){:height="250" width="250"}
 
-When full 2FA is enabled, possession of the mobile phone is required in order to spend coins. Full 2FA is enabled using the 'Settings' tab in the desktop app. Under the hood, an encrypted single-use PIN is sent to the mobile app, decrypted there, and returned to the BitBox when pressing the Accept button.
+Full "2FA" which makes your phone a second-factor authorization (2FA) device.
+When full 2FA is enabled, possession of the mobile phone is required in order to spend coins.
+
 
 >**Warning!** Be sure that you have a valid microSD card backup and know your recovery password before enabling 2FA. [Click here to see how to check if you have a valid backup.]({%link bitbox01/basics/managing-backups.md %}#verifying-a-backup) Once enabled, the microSD slot, necessary for backups, and mobile app pairing is disabled. These are re-enabled only after resetting your BitBox01. To then restore your wallet you will need the **microSD card backup and your recovery password!**
