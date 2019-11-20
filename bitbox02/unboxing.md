@@ -19,14 +19,20 @@ for buying a Shift Cryptosecurity product. We hope you will enjoy using it. If y
 
 ## Packaging
 
-Before you start using your BitBox02, please make sure that the vacuum bag is still sealed.
+When you receive your device please inspect that the plastic bag is intact and does not appear damaged. If the vacuum bag is damaged or cut open, looks different or if the gray pattern is missing on one of the four sides, do not use your device and {% include contact-small.html %}
+Here are some photos of the packaging and a closeup of the gray pattern to help you check:
 
-Here is a photo of what it should look like:
+
+![alt text]({% link assets/images/BitBox02/vacuum_bag_pattern.png %}){:height="300" width="300"}
 
 ![alt text]({% link assets/images/BitBox02/06_bb02_vac.png %}){:height="300" width="300"}
 ![alt text]({% link assets/images/BitBox02/06_bb02_btc_vac.png %}){:height="300" width="300"}
 
 Left: [BitBox02 multi edition](https://shiftcrypto.ch/bitbox02/), Right: [BitBox02 Bitcoin-only edition](https://shiftcrypto.ch/bitbox02/)
+
+Please note that our existing packaging is not a strong tamper-evident solution because it only requires a potential attacker to replicate the customized bag and re-package a potentially compromised device. However, it's still good practice is to check for any signs of tampering. We are working on a significantly more sophisticated tamper-evident packaging solution, called [BitBoxTep](https://tep.shiftcrypto.ch/).
+
+
 
 ## In the box
 
