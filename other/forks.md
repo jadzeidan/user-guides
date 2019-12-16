@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Blockchain Forks
-nav_order: 6
+nav_order: 1
 has_children: false
-parent: BitBoxApp
+parent: Other
 
 ---
 
