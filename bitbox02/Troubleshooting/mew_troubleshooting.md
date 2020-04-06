@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MyEtherWallet troubleshooting
+title: MyEtherWallet
 nav_order: 1
 has_children: false
 parent: Troubleshooting
@@ -18,85 +18,89 @@ grand_parent: BitBox02
 
 ---
 
-If you are having issues using MyEtherWallet with the BitBox02,please take a look at the list below to find your specific issue and respective fix.
+If you are having issues using MyEtherWallet with the BitBox02, please take a look at the list below to find your specific issue and respective fix.
 
-#### Issue: Unlock BitBox02
+## Prerequisites
+- A BitBox02 Multi edition hardware wallet
+- The BitBox02 needs to be set up. If it isn't follow [this guide]({% link bitbox02/setup.md %})
 
-- Unlock BitBox02 by entering your password on the device
 
-#### Issue: Unexpected error
+## Getting started
 
-- Disconnect and reconnect the BitBox02 and try again.
+### Step 1: Install BitBoxBridge
+To use your BitBox02 with web wallets such as MyEtherWallet, you need to download and install the BitBoxBridge. The BitBoxBridge is a program that runs in the background and allows the BitBox02 to communicate with web based wallets.
 
-#### Issue: Action aborted by user.
+[Download BitBoxBridge](https://shiftcrypto.ch/start/)
 
-- You cancelled a process on the BitBox02. Try again.
+### Step 2: Start using MyEtherWallet with the BitBox02
+- Go to [myetherwallet.com](https://www.myetherwallet.com/)
+- Click "Access My Wallet" then choose "Hardware".
+- Select "BitBox" and then "BitBox02".
+- Unlock your BitBox02 by entering the password on the device.
+- When using MyEtherWallet for the first time, you will be prompted with a pairing code. Confirm on your BitBox02 that the pairing code matches and select "continue".
+- Now you are ready to start using MyEtherWallet!
 
-#### Issue: Your BitBox02 is not initialized
+**Note:** You will be prompted with a pairing code whenever you use the BitBox02 with a new browser or computer.
 
-- The BitBox02 is not set up yet. Download and install the [BitBoxApp](https://shiftcrypto.ch/start/) to setup your BitBox02.
 
-#### Issue: Please upgrade to the newest firmware using Shift Cryptosecurity's BitBoxApp
+> **Safety tip:** Always check the URL of  MyEtherWallet. The URL should be https://www.myetherwallet.com/
 
-- Your BitBox02 firmware is out of date. Open the BitBoxApp to update the BitBox02
 
-#### Issue: MyEtherWallet does not yet support this version of the firmware.
+## Troubleshooting
+If MyEtherWallet shows you an error message, please see if you can find the error in the list below.
 
-- MyEtherWallet may need to update. Try to hard refresh by clicking ctrl-F5 when on the MyEtherWallet page. If this does not work, it is possible you need to wait for MyEtherWallet to release an update.
+| Error message| Proposed solution |
+|:-------------|:------------------|
+| Unlock BitBox02  | Unlock the BitBox02 by entering your password on the device|
+| Unexpected error | Disconnect and reconnect the BitBox02 and try again.  |
+| Action aborted by user  | You cancelled a process on the BitBox02. Try again.  |
+| Your BitBox02 is not initialised | Download and install the [BitBoxApp](https://shiftcrypto.ch/start/) to setup your BitBox02.|
+| Please upgrade to the newest firmware using Shift Cryptosecurity's BitBoxApp| Your BitBox02 firmware is out of date. Open the BitBoxApp to update the BitBox02 |
+| MyEtherWallet does not yet support this version of the firmware. | MyEtherWallet may need to update. Try to [hard refresh](https://fabricdigital.co.nz/blog/how-to-hard-refresh-your-browser-and-clear-cache) when on the MyEtherWallet page. If this does not work, it is possible you need to wait for MyEtherWallet to release an update. |
+| Trying to connect from a non-whitelisted origin. |**Attention!** You may be on a phishing site. Please check if the URL is correct. The URL for MyEtherWallet should be https://myetherwallet.com |
+| Expected exactly one BitBox02. No or more than one BitBox02 detected. | Please make sure you only have one BitBox02 plugged in at a time. |
+| Pairing rejected on device, please try again | Reconnect the BitBox02 and accept the pairing code by clicking the “check mark” on the BitBox02 when prompted. |
+| Your BitBox02 is busy. Please close all other wallets and try again. | Close the BitBoxApp. Close any other wallets you may have open using the BitBox02, such as Electrum. |
+| Device attestation failed | Reconnect BitBox02 and try again. If you keep getting the warning. Please contact support@shiftcrypto.ch |
+| Unsupported BitBox device | MyEtherWallet only supports the BitBox02 Multi edition or the BitBox01. If you are using a BitBox02 Bitcoin-only edition, it is not compatible with MyEtherWallet because it does not support Ethereum. |
+| Plug in BitBox02 and choose screen orientation by tapping one of the sides. | Make sure BitBox02 is inserted into USB and powered. Choose orientation of BitBox02 by tapping one of the sides of the device. USB connection is only established after you choose the screen orientation. |
 
-#### Issue: Trying to connect from a non-whitelisted origin.
-
-- Attention! You may be on a phishing site. Please check if the URL is correct. The URL for MyEtherWallet should be myetherwallet.com.
-
-#### Issue: BitBoxBridge not found
+### Issue: BitBoxBridge not found
+{: .no_toc }
 
 - To use MyEtherWallet, you need to download and install the [BitBoxBridge](https://shiftcrypto.ch/start/)
-
 - If BitBoxBridge is already installed, make sure service is running:
 
-**Windows**
+#### Windows
+{: .no_toc }
 
-- In search bar type **services**
-- Find **bitbox-bridge**
-- Check it’s status.
+1. In search bar type **services**
+2. Find **bitbox-bridge**
+3. Check it’s status.
 
-If status is empty, right click on bitbox-bridge and click Start
+- If status is empty, right click on bitbox-bridge and click Start
+- To make sure the BitBoxBridge starts on boot, right click bitbox-bridge -> properties then select in startup type automatic
 
-To make sure the BitBoxBridge starts on boot, right click bitbox-bridge -> properties then select in startup type automatic
+#### macOS
+{: .no_toc }
 
-**macOS**
-
--	Open Activity Monitor and look for the service **bitbox-bridge**. 
-
-If it is not listed there, then the service is not running.
-
-You can also see if the service is running using the Terminal:
-
-- Open Terminal
-- Insert command: 
-`sudo launchctl list | grep shift`
-
-If there is a number in the PID column, it is running. 
-
-To restart the BitBoxBridge, do the following:
-
--	Launchd  something something something dark side something something something complete
--	Open the Terminal
--	Insert the following commands:
-`sudo launchctl stop ch.shiftcrypto.bitboxbridge`
-`sudo launchctl start ch.shiftcrypto.bitboxbridge`
+1. Open Activity Monitor and search for the service **bitbox-bridge**.
+  - If it is not listed there, then the bridge is not running.
+2. To restart the BitBoxBridge, select it in Activity Monitor, then click the "x" in the upper left corner. Alternatively do the following:
+  -	Open the Terminal
+  -	Insert the following commands:
+  - To stop the bridge run: `sudo launchctl unload /Library/LaunchDaemons/ch.shiftcrypto.bitboxbridge.plist`
+  - To re-start the bridge run: `sudo launchctl load /Library/LaunchDaemons/ch.shiftcrypto.bitboxbridge.plist`
 
 
-Log files are in /opt/shiftcrypto/bitbox-bridge/logs
+- Log files are in /opt/shiftcrypto/bitbox-bridge/logs
 
-Linux:
+#### Linux:
+{: .no_toc }
 
-`$ sudo systemctl stop bitbox-bridge`
-`$ sudo systemctl start bitbox-bridge`
-`$ systemctl status bitbox-bridge`
-
-Example:
-
+1. To see the status: `$ systemctl status bitbox-bridge`
+- You should see something like:
+```
 bitbox-bridge.service - Shiftcrypto BitBoxBridge
    Loaded: loaded (/usr/lib/systemd/system/bitbox-bridge.service; enabled; vendor preset: enabled)
    Active: active (running) since Fri 2020-02-07 22:58:31 CET; 24s ago
@@ -105,32 +109,13 @@ bitbox-bridge.service - Shiftcrypto BitBoxBridge
    Memory: 4.4M
    CGroup: /system.slice/bitbox-bridge.service
        	└─4556 /opt/bitbox-bridge/bin/bitbox-bridge
+```
+2. To stop the bridge run: `$ sudo systemctl stop bitbox-bridge`
+3. To re-start the bridge run: `$ sudo systemctl start bitbox-bridge`
 
-#### Issue: Expected exactly one BitBox02. No or more than one BitBox02 detected.
 
-Please make sure you only have one BitBox02 plugged in at a time.
 
-#### Issue: Pairing rejected on device, please try again
 
-Reconnect the BitBox02 and accept the pairing code by clicking the “check mark” on the BitBox02 when prompted.
 
-#### Issue: Your BitBox02 is busy. Please close all other wallets and try again.
-
--	Close the BitBoxApp
--	Close any other wallets you may have open using the BitBox02. Such as Electrum.
-
-#### Issue: Device attestation failed
-
--	Reconnect BitBox02 and try again
--	If you keep getting the warning. Please contact support@shiftcrypto.ch 
-
-#### Issue: Unsupported BitBox device
-
-MyEtherWallet only supports the BitBox02 Multi edition or the BitBox02. If you are using a BitBox02 Bitcoin-only edition, it is not compatible with MyEtherWallet because it does not support Ethereum.
-
-#### Issue: Plug in BitBox02 and choose screen orientation by tapping one of the sides.
-
--	Make sure BitBox02 is inserted into USB and powered.
--	Choose orientation of BitBox02 by tapping one of the sides of the device. USB connection is only established after you choose the screen orientation.
 
 If you are still experiencing issues, please contact support@shiftcrypto.ch
