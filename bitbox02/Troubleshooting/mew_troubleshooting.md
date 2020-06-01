@@ -56,7 +56,7 @@ If MyEtherWallet shows you an error message, please see if you can find the erro
 | Unexpected error | Disconnect and reconnect the BitBox02 and try again.  |
 | Action aborted by user  | You cancelled a process on the BitBox02. Try again.  |
 | Your BitBox02 is not initialised | Download and install the [BitBoxApp](https://shiftcrypto.ch/start/) to setup your BitBox02.|
-| Please upgrade to the newest firmware using Shift Cryptosecurity's BitBoxApp| Your BitBox02 firmware is out of date. Open the BitBoxApp to update the BitBox02 |
+| Please upgrade to the newest firmware using Shift Crypto's BitBoxApp| Your BitBox02 firmware is out of date. Open the BitBoxApp to update the BitBox02 |
 | MyEtherWallet does not yet support this version of the firmware. | MyEtherWallet may need to update. Try to [hard refresh](https://fabricdigital.co.nz/blog/how-to-hard-refresh-your-browser-and-clear-cache) when on the MyEtherWallet page. If this does not work, it is possible you need to wait for MyEtherWallet to release an update. |
 | Trying to connect from a non-whitelisted origin. |**Attention!** You may be on a phishing site. Please check if the URL is correct. The URL for MyEtherWallet should be https://myetherwallet.com |
 | Expected exactly one BitBox02. No or more than one BitBox02 detected. | Please make sure you only have one BitBox02 plugged in at a time. |

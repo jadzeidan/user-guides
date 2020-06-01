@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BitBox
-description: Shift Cryptocurrency product user guides
+description: Shift Crypto product user guides
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://guides.shiftcrypto.ch" # the base hostname & protocol for your site, e.g. http://example.com
 support: "(mailto:support@shiftcrypto.ch)"
@@ -35,7 +35,7 @@ aux_links:
   "Back to shiftcrypto.ch": "https://shiftcrypto.ch"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Shift Cryptosecurity."
+footer_content: ""
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil

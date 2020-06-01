@@ -197,7 +197,7 @@ json = {
         "title": "Can you add more coins?"
       },
       "servers": {
-        "text": "This app communicates with servers of Shift Cryptosecurity to check for updates, load transactions, and send information to paired mobile apps.\nAdditionally, it retrieves the latest exchange rates from CryptoCompare. (The conversions are calculated locally, no amounts of yours are transmitted.)",
+        "text": "This app communicates with servers of Shift Crypto to check for updates, load transactions, and send information to paired mobile apps.\nAdditionally, it retrieves the latest exchange rates from CryptoCompare. (The conversions are calculated locally, no amounts of yours are transmitted.)",
         "title": "Which servers does this app talk to?"
       },
       "whyMultipleAccounts": {
@@ -246,7 +246,7 @@ json = {
         "title": "Can I use the app without a device?"
       },
       "welcome": {
-        "text": "Thanks for using this app built by Shift Cryptosecurity in Switzerland. We appreciate any input you have to share. Please give feedback using the link at the bottom.",
+        "text": "Thanks for using this app built by Shift Crypto in Switzerland. We appreciate any input you have to share. Please give feedback using the link at the bottom.",
         "title": "Welcome to the BitBoxApp!"
       }
     }

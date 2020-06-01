@@ -136,4 +136,4 @@ If you can't see all your test transactions after a few minutes:
 After you have moved all your funds to your new BitBox02 you are good to go.
 Have fun and always stay safe.
 
-Kind regards, Shift Cryptosecurity Team.
+Kind regards, Shift Crypto Team.
