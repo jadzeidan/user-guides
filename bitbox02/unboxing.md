@@ -13,7 +13,7 @@ parent: BitBox02
 
 ## Thank you
 
-for buying a Shift Cryptosecurity product. We hope you will enjoy using it. If you can't find what you're looking for in this guide, please don't hesitate to {% include contact-small.html url=page.url %}
+for buying a Shift Crypto product. We hope you will enjoy using it. If you can't find what you're looking for in this guide, please don't hesitate to {% include contact-small.html url=page.url %}
 
 ---
 

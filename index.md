@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Shift Cryptosecurity product user guides"
+description: "Shift Crypto product user guides"
 ---
 
 # BitBox user guides
