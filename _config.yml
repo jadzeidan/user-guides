@@ -47,6 +47,7 @@ ga_tracking:
 plugins:
   - jekyll-seo-tag
   - jekyll-get-json
+  - jekyll-redirect-from
 
 jekyll_get_json:
   - data: guide
