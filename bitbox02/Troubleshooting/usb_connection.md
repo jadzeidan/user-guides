@@ -19,9 +19,11 @@ grand_parent: BitBox02
 ---
 
 If the BitBoxApp on your computer does not detect your BitBox, please try the following:
-1. Plug your BitBox in without an adapter or cable if possible.
+1. Plug your BitBox in without an adapter or cable if possible.*
 2. Try using a different USB port.
-3. Try using a different computer.
+3. Try using a different computer or an android phone.
+
+\* The goal is to find out if the adapter is defect or the BitBox itself.
 
 ## To check if your computer detects the BitBox at all:
 
