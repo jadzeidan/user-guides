@@ -5,6 +5,7 @@ nav_order: 2
 has_children: false
 parent: Troubleshooting
 grand_parent: BitBox02
+redirect_from: /bitbox02/Troubleshooting/mew_troubleshooting2/
 ---
 
 # {{page.grand_parent}}: {{page.title}}
