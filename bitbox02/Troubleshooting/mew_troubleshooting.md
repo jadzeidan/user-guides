@@ -69,8 +69,16 @@ If MyEtherWallet shows you an error message, please see if you can find the erro
 ### Issue: BitBoxBridge not found
 {: .no_toc }
 
-- To use MyEtherWallet, you need to download and install the [BitBoxBridge](https://shiftcrypto.ch/start/)
-- If BitBoxBridge is already installed, make sure service is running:
+1. To use MyEtherWallet, you need to download and install the [BitBoxBridge](https://shiftcrypto.ch/start/)
+2. If BitBoxBridge is already installed, make sure service is running by visiting    `http://127.0.0.1:8178/` in your browser.
+If the bridge is running you should see something like:
+```
+BitBoxBridge v1.1.0
+    GET /api/info
+    GET /api/v1/devices
+ GET/WS /api/v1/socket/:socket
+ ```
+ If the bridge is not running, please follow the instructions below to re-start it.
 
 #### Windows
 {: .no_toc }
