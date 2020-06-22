@@ -20,7 +20,7 @@ parent: BitBoxApp
 This functionality allows you to connect your full node to the BitBoxApp.
 
 ## Connecting to your full node without Tor
-On your regular computer, configure the BitBoxApp to use your RaspiBolt:
+On your regular computer, configure the BitBoxApp to use your own node:
 
 * In the sidebar, select Settings > Connect your own full node
 * In the field “Enter the endpoint” enter the hostname or ip address and the port, e.g. raspibolt.local:50002
@@ -30,8 +30,8 @@ On your regular computer, configure the BitBoxApp to use your RaspiBolt:
 * Remove the Shift servers to only connect to your own server
 
 ## Connecting to your full node via Tor
-If you have Tor installed on your computer, you can access your RaspiBolt remotely over Tor.
+If you have Tor installed on your computer, you can access your own node remotely over Tor.
 
 * In the sidebar, select Settings > Enable tor proxy
 * Enable it and confirm the proxy address (usually the default 127.0.0.1:9050)
-* When adding your RaspiBolt full node as described above, use your Tor address (e.g. gwdllz5g7vky2q4gr45zGuvopjzf33czreca3a3exosftx72ekppkuqd.onion:50002)
+* When adding your full node as described above, use your Tor address (e.g. gwdllz5g7vky2q4gr45zGuvopjzf33czreca3a3exosftx72ekppkuqd.onion:50001)
